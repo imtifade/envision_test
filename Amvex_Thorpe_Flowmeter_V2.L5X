@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<RSLogix5000Content SchemaRevision="1.0" SoftwareRevision="33.01" TargetName="Amvex_Thorpe_Flowmeter" TargetType="Controller" ContainsContext="false" Owner="Controls Technician" ExportDate="Mon Jan 02 11:45:24 2023" ExportOptions="NoRawData L5KData DecoratedData ForceProtectedEncoding AllProjDocTrans">
-<Controller Use="Target" Name="Amvex_Thorpe_Flowmeter" ProcessorType="1769-L30ER" MajorRev="33" MinorRev="13" TimeSlice="20" ShareUnusedTimeSlice="1" ProjectCreationDate="Tue Sep 13 10:36:35 2022" LastModifiedDate="Mon Jan 02 11:43:13 2023" SFCExecutionControl="CurrentActive" SFCRestartPosition="MostRecent"
+<RSLogix5000Content SchemaRevision="1.0" SoftwareRevision="33.01" TargetName="Amvex_Thorpe_Flowmeter" TargetType="Controller" ContainsContext="false" Owner="Controls Technician" ExportDate="Tue Jan 03 12:56:44 2023" ExportOptions="NoRawData L5KData DecoratedData ForceProtectedEncoding AllProjDocTrans">
+<Controller Use="Target" Name="Amvex_Thorpe_Flowmeter" ProcessorType="1769-L30ER" MajorRev="33" MinorRev="13" TimeSlice="20" ShareUnusedTimeSlice="1" ProjectCreationDate="Tue Sep 13 10:36:35 2022" LastModifiedDate="Tue Jan 03 12:55:44 2023" SFCExecutionControl="CurrentActive" SFCRestartPosition="MostRecent"
  SFCLastScan="DontScan" CommPath="DevPLC1\192.168.30.100" ProjectSN="16#d04e_bed3" MatchProjectToController="false" CanUseRPIFromProducer="false" InhibitAutomaticFirmwareUpdate="0" PassThroughConfiguration="EnabledWithAppend" DownloadProjectDocumentationAndExtendedProperties="true" DownloadProjectCustomProperties="true" ReportMinorOverflow="false">
 <RedundancyInfo Enabled="false" KeepTestEditsOnSwitchOver="false" IOMemoryPadPercentage="90" DataTablePadPercentage="50"/>
 <Security Code="0" ChangesToDetect="16#ffff_ffff_ffff_ffff"/>
@@ -2345,8 +2345,8 @@ Process data cannot be exchanged between the master and forced channels]]>
 <ArrayMember Name="Data" DataType="SINT" Dimensions="14" Radix="Decimal">
 <Element Index="[0]" Value="0"/>
 <Element Index="[1]" Value="0"/>
-<Element Index="[2]" Value="-103"/>
-<Element Index="[3]" Value="101"/>
+<Element Index="[2]" Value="88"/>
+<Element Index="[3]" Value="-23"/>
 <Element Index="[4]" Value="0"/>
 <Element Index="[5]" Value="0"/>
 <Element Index="[6]" Value="0"/>
@@ -2363,14 +2363,14 @@ Process data cannot be exchanged between the master and forced channels]]>
 </InputTag>
 <OutputTag ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[[0,0,33,0,0,0]]]]>
+<![CDATA[[[0,0,1,0,0,0]]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="_03F7:1334920000_E771E08B:O:0">
 <ArrayMember Name="Data" DataType="SINT" Dimensions="6" Radix="Decimal">
 <Element Index="[0]" Value="0"/>
 <Element Index="[1]" Value="0"/>
-<Element Index="[2]" Value="33"/>
+<Element Index="[2]" Value="1"/>
 <Element Index="[3]" Value="0"/>
 <Element Index="[4]" Value="0"/>
 <Element Index="[5]" Value="0"/>
@@ -2406,13 +2406,13 @@ Process data cannot be exchanged between the master and forced channels]]>
 <Element Index="[3]" Value="0"/>
 <Element Index="[4]" Value="0"/>
 <Element Index="[5]" Value="0"/>
-<Element Index="[6]" Value="-51"/>
-<Element Index="[7]" Value="60"/>
-<Element Index="[8]" Value="104"/>
+<Element Index="[6]" Value="51"/>
+<Element Index="[7]" Value="-13"/>
+<Element Index="[8]" Value="101"/>
 <Element Index="[9]" Value="65"/>
-<Element Index="[10]" Value="0"/>
-<Element Index="[11]" Value="0"/>
-<Element Index="[12]" Value="-30"/>
+<Element Index="[10]" Value="103"/>
+<Element Index="[11]" Value="-58"/>
+<Element Index="[12]" Value="-27"/>
 <Element Index="[13]" Value="65"/>
 <Element Index="[14]" Value="0"/>
 <Element Index="[15]" Value="0"/>
@@ -2469,13 +2469,13 @@ Process data cannot be exchanged between the master and forced channels]]>
 <Element Index="[3]" Value="0"/>
 <Element Index="[4]" Value="0"/>
 <Element Index="[5]" Value="0"/>
-<Element Index="[6]" Value="51"/>
-<Element Index="[7]" Value="67"/>
-<Element Index="[8]" Value="104"/>
+<Element Index="[6]" Value="103"/>
+<Element Index="[7]" Value="-10"/>
+<Element Index="[8]" Value="101"/>
 <Element Index="[9]" Value="65"/>
 <Element Index="[10]" Value="103"/>
-<Element Index="[11]" Value="102"/>
-<Element Index="[12]" Value="-53"/>
+<Element Index="[11]" Value="70"/>
+<Element Index="[12]" Value="-50"/>
 <Element Index="[13]" Value="65"/>
 <Element Index="[14]" Value="0"/>
 <Element Index="[15]" Value="0"/>
@@ -3416,26 +3416,26 @@ Process data cannot be exchanged between the master and forced channels]]>
 <DataValueMember Name="ConnectionFaulted" DataType="BOOL" Value="0"/>
 <ArrayMember Name="Data" DataType="INT" Dimensions="197" Radix="Decimal">
 <Element Index="[0]" Value="0"/>
-<Element Index="[1]" Value="48"/>
-<Element Index="[2]" Value="0"/>
-<Element Index="[3]" Value="0"/>
+<Element Index="[1]" Value="49"/>
+<Element Index="[2]" Value="1"/>
+<Element Index="[3]" Value="7"/>
 <Element Index="[4]" Value="0"/>
 <Element Index="[5]" Value="0"/>
 <Element Index="[6]" Value="0"/>
-<Element Index="[7]" Value="19139"/>
-<Element Index="[8]" Value="2"/>
-<Element Index="[9]" Value="0"/>
-<Element Index="[10]" Value="0"/>
-<Element Index="[11]" Value="0"/>
-<Element Index="[12]" Value="0"/>
-<Element Index="[13]" Value="0"/>
-<Element Index="[14]" Value="0"/>
+<Element Index="[7]" Value="31697"/>
+<Element Index="[8]" Value="3"/>
+<Element Index="[9]" Value="3"/>
+<Element Index="[10]" Value="4128"/>
+<Element Index="[11]" Value="58"/>
+<Element Index="[12]" Value="58"/>
+<Element Index="[13]" Value="57"/>
+<Element Index="[14]" Value="58"/>
 <Element Index="[15]" Value="0"/>
-<Element Index="[16]" Value="0"/>
+<Element Index="[16]" Value="38"/>
 <Element Index="[17]" Value="0"/>
-<Element Index="[18]" Value="0"/>
+<Element Index="[18]" Value="2"/>
 <Element Index="[19]" Value="0"/>
-<Element Index="[20]" Value="0"/>
+<Element Index="[20]" Value="36"/>
 <Element Index="[21]" Value="0"/>
 <Element Index="[22]" Value="0"/>
 <Element Index="[23]" Value="0"/>
@@ -3451,30 +3451,30 @@ Process data cannot be exchanged between the master and forced channels]]>
 <Element Index="[33]" Value="0"/>
 <Element Index="[34]" Value="0"/>
 <Element Index="[35]" Value="0"/>
-<Element Index="[36]" Value="0"/>
-<Element Index="[37]" Value="0"/>
+<Element Index="[36]" Value="65"/>
+<Element Index="[37]" Value="65"/>
 <Element Index="[38]" Value="0"/>
-<Element Index="[39]" Value="0"/>
+<Element Index="[39]" Value="10"/>
 <Element Index="[40]" Value="-1"/>
 <Element Index="[41]" Value="0"/>
 <Element Index="[42]" Value="0"/>
 <Element Index="[43]" Value="0"/>
 <Element Index="[44]" Value="0"/>
 <Element Index="[45]" Value="0"/>
-<Element Index="[46]" Value="0"/>
-<Element Index="[47]" Value="0"/>
+<Element Index="[46]" Value="99"/>
+<Element Index="[47]" Value="100"/>
 <Element Index="[48]" Value="0"/>
-<Element Index="[49]" Value="0"/>
+<Element Index="[49]" Value="40"/>
 <Element Index="[50]" Value="-1"/>
 <Element Index="[51]" Value="0"/>
 <Element Index="[52]" Value="0"/>
 <Element Index="[53]" Value="0"/>
 <Element Index="[54]" Value="0"/>
 <Element Index="[55]" Value="0"/>
-<Element Index="[56]" Value="0"/>
-<Element Index="[57]" Value="0"/>
+<Element Index="[56]" Value="100"/>
+<Element Index="[57]" Value="100"/>
 <Element Index="[58]" Value="0"/>
-<Element Index="[59]" Value="0"/>
+<Element Index="[59]" Value="23"/>
 <Element Index="[60]" Value="-1"/>
 <Element Index="[61]" Value="0"/>
 <Element Index="[62]" Value="0"/>
@@ -3728,14 +3728,14 @@ Process data cannot be exchanged between the master and forced channels]]>
 </Comment>
 </Comments>
 <Data Format="L5K">
-<![CDATA[[[0,0,2,0,0,0]]]]>
+<![CDATA[[[0,0,3,0,0,0]]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="_016F:IV3Series_E8E6FFA2:O:0">
 <ArrayMember Name="Data" DataType="INT" Dimensions="6" Radix="Decimal">
 <Element Index="[0]" Value="0"/>
 <Element Index="[1]" Value="0"/>
-<Element Index="[2]" Value="2"/>
+<Element Index="[2]" Value="3"/>
 <Element Index="[3]" Value="0"/>
 <Element Index="[4]" Value="0"/>
 <Element Index="[5]" Value="0"/>
@@ -4145,44 +4145,44 @@ Process data cannot be exchanged between the master and forced channels]]>
 <Element Index="[33]" Value="0"/>
 <Element Index="[34]" Value="0"/>
 <Element Index="[35]" Value="0"/>
-<Element Index="[36]" Value="0"/>
+<Element Index="[36]" Value="93"/>
 <Element Index="[37]" Value="0"/>
-<Element Index="[38]" Value="0"/>
+<Element Index="[38]" Value="93"/>
 <Element Index="[39]" Value="0"/>
-<Element Index="[40]" Value="0"/>
+<Element Index="[40]" Value="93"/>
 <Element Index="[41]" Value="0"/>
-<Element Index="[42]" Value="0"/>
+<Element Index="[42]" Value="30"/>
 <Element Index="[43]" Value="0"/>
-<Element Index="[44]" Value="0"/>
-<Element Index="[45]" Value="0"/>
-<Element Index="[46]" Value="0"/>
-<Element Index="[47]" Value="0"/>
-<Element Index="[48]" Value="0"/>
-<Element Index="[49]" Value="0"/>
-<Element Index="[50]" Value="0"/>
-<Element Index="[51]" Value="0"/>
-<Element Index="[52]" Value="0"/>
-<Element Index="[53]" Value="0"/>
-<Element Index="[54]" Value="0"/>
-<Element Index="[55]" Value="0"/>
-<Element Index="[56]" Value="0"/>
-<Element Index="[57]" Value="0"/>
-<Element Index="[58]" Value="0"/>
-<Element Index="[59]" Value="0"/>
-<Element Index="[60]" Value="0"/>
-<Element Index="[61]" Value="0"/>
-<Element Index="[62]" Value="0"/>
-<Element Index="[63]" Value="0"/>
-<Element Index="[64]" Value="0"/>
-<Element Index="[65]" Value="0"/>
-<Element Index="[66]" Value="0"/>
-<Element Index="[67]" Value="0"/>
-<Element Index="[68]" Value="0"/>
-<Element Index="[69]" Value="0"/>
-<Element Index="[70]" Value="0"/>
-<Element Index="[71]" Value="0"/>
-<Element Index="[72]" Value="0"/>
-<Element Index="[73]" Value="0"/>
+<Element Index="[44]" Value="48"/>
+<Element Index="[45]" Value="49"/>
+<Element Index="[46]" Value="48"/>
+<Element Index="[47]" Value="48"/>
+<Element Index="[48]" Value="54"/>
+<Element Index="[49]" Value="50"/>
+<Element Index="[50]" Value="56"/>
+<Element Index="[51]" Value="49"/>
+<Element Index="[52]" Value="48"/>
+<Element Index="[53]" Value="49"/>
+<Element Index="[54]" Value="53"/>
+<Element Index="[55]" Value="48"/>
+<Element Index="[56]" Value="51"/>
+<Element Index="[57]" Value="48"/>
+<Element Index="[58]" Value="48"/>
+<Element Index="[59]" Value="48"/>
+<Element Index="[60]" Value="50"/>
+<Element Index="[61]" Value="49"/>
+<Element Index="[62]" Value="84"/>
+<Element Index="[63]" Value="49"/>
+<Element Index="[64]" Value="53"/>
+<Element Index="[65]" Value="85"/>
+<Element Index="[66]" Value="79"/>
+<Element Index="[67]" Value="66"/>
+<Element Index="[68]" Value="51"/>
+<Element Index="[69]" Value="53"/>
+<Element Index="[70]" Value="49"/>
+<Element Index="[71]" Value="56"/>
+<Element Index="[72]" Value="55"/>
+<Element Index="[73]" Value="13"/>
 <Element Index="[74]" Value="0"/>
 <Element Index="[75]" Value="0"/>
 <Element Index="[76]" Value="0"/>
@@ -4584,13 +4584,13 @@ Process data cannot be exchanged between the master and forced channels]]>
 </Comment>
 </Comments>
 <Data Format="L5K">
-<![CDATA[[[4096,0]]]]>
+<![CDATA[[[138,40]]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="SM:EX260_SEN1:O:0">
 <ArrayMember Name="OutputArea" DataType="INT" Dimensions="2" Radix="Binary">
-<Element Index="[0]" Value="2#0001_0000_0000_0000"/>
-<Element Index="[1]" Value="2#0000_0000_0000_0000"/>
+<Element Index="[0]" Value="2#0000_0000_1000_1010"/>
+<Element Index="[1]" Value="2#0000_0000_0010_1000"/>
 </ArrayMember>
 </Structure>
 </Data>
@@ -4725,10 +4725,10 @@ Process data cannot be exchanged between the master and forced channels]]>
 <DataValueMember Name="ConnectionFaulted" DataType="BOOL" Value="0"/>
 <ArrayMember Name="Data" DataType="DINT" Dimensions="16" Radix="Decimal">
 <Element Index="[0]" Value="0"/>
-<Element Index="[1]" Value="0"/>
-<Element Index="[2]" Value="0"/>
+<Element Index="[1]" Value="1"/>
+<Element Index="[2]" Value="26023"/>
 <Element Index="[3]" Value="407"/>
-<Element Index="[4]" Value="20000"/>
+<Element Index="[4]" Value="100"/>
 <Element Index="[5]" Value="10003"/>
 <Element Index="[6]" Value="10003"/>
 <Element Index="[7]" Value="10003"/>
@@ -4811,23 +4811,23 @@ Process data cannot be exchanged between the master and forced channels]]>
 </Comment>
 </Comments>
 <Data Format="L5K">
-<![CDATA[[[0,8191,135,0,0,100,500,250000,-1000000,300,0,45,100,0,0,0]]]]>
+<![CDATA[[[0,8191,5,1,0,200,500,-600000,-1000000,300,0,100,100,0,0,0]]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="_0294:SV2_CM_ENETIP_42190CF9:O:0">
 <ArrayMember Name="Data" DataType="DINT" Dimensions="16" Radix="Decimal">
 <Element Index="[0]" Value="0"/>
 <Element Index="[1]" Value="8191"/>
-<Element Index="[2]" Value="135"/>
-<Element Index="[3]" Value="0"/>
+<Element Index="[2]" Value="5"/>
+<Element Index="[3]" Value="1"/>
 <Element Index="[4]" Value="0"/>
-<Element Index="[5]" Value="100"/>
+<Element Index="[5]" Value="200"/>
 <Element Index="[6]" Value="500"/>
-<Element Index="[7]" Value="250000"/>
+<Element Index="[7]" Value="-600000"/>
 <Element Index="[8]" Value="-1000000"/>
 <Element Index="[9]" Value="300"/>
 <Element Index="[10]" Value="0"/>
-<Element Index="[11]" Value="45"/>
+<Element Index="[11]" Value="100"/>
 <Element Index="[12]" Value="100"/>
 <Element Index="[13]" Value="0"/>
 <Element Index="[14]" Value="0"/>
@@ -14142,6 +14142,20 @@ Note: In generic mode there is no support for TCP/IP connection status. Please a
 </AddOnInstructionDefinition>
 </AddOnInstructionDefinitions>
 <Tags>
+<Tag Name="Air_Pressure_Issue_Delay_TMR" TagType="Base" DataType="TIMER" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[[-1610565078,1000,1000]]]>
+</Data>
+<Data Format="Decorated">
+<Structure DataType="TIMER">
+<DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="1000"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="1000"/>
+<DataValueMember Name="EN" DataType="BOOL" Value="1"/>
+<DataValueMember Name="TT" DataType="BOOL" Value="0"/>
+<DataValueMember Name="DN" DataType="BOOL" Value="1"/>
+</Structure>
+</Data>
+</Tag>
 <Tag Name="Alicat1RequestMsg" TagType="Base" DataType="MESSAGE" ExternalAccess="Read/Write">
 <Data Format="Message">
 <MessageParameters MessageType="CIP Generic" RequestedLength="4" ConnectedFlag="2" ConnectionPath="2, 192.168.1.88" CommTypeCode="0" ServiceCode="16#0010" ObjectType="16#0004" TargetObject="102" AttributeNumber="16#0003" LocalIndex="0" LocalElement="MCP.Testing.Alicat[0].CmdData[0]"
@@ -14224,11 +14238,11 @@ Note: In generic mode there is no support for TCP/IP connection status. Please a
 </Tag>
 <Tag Name="Barcode_Data_String" TagType="Base" DataType="STRING" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[808464688,'62810150300021T15UOB00032$r$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
+<![CDATA[[808464688,'62810150300021T15UOB00032$r$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$10$00'
 		]]]>
 </Data>
 <Data Format="String" Length="808464688">
-<![CDATA['62810150300021T15UOB00032$r$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00']]>
+<![CDATA['62810150300021T15UOB00032$r$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$10$00$00$00']]>
 </Data>
 </Tag>
 <Tag Name="Barcode_Data_Temp" TagType="Base" DataType="DINT" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
@@ -14241,11 +14255,11 @@ Note: In generic mode there is no support for TCP/IP connection status. Please a
 </Tag>
 <Tag Name="Barcode_Delay" TagType="Base" DataType="TIMER" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[0,0,0]]]>
+<![CDATA[[1548162,500,0]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="TIMER">
-<DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="500"/>
 <DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="0"/>
 <DataValueMember Name="EN" DataType="BOOL" Value="0"/>
 <DataValueMember Name="TT" DataType="BOOL" Value="0"/>
@@ -14255,11 +14269,11 @@ Note: In generic mode there is no support for TCP/IP connection status. Please a
 </Tag>
 <Tag Name="Barcode_timeout" TagType="Base" DataType="TIMER" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[2020652,1000,0]]]>
+<![CDATA[[1547742,750,0]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="TIMER">
-<DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="1000"/>
+<DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="750"/>
 <DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="0"/>
 <DataValueMember Name="EN" DataType="BOOL" Value="0"/>
 <DataValueMember Name="TT" DataType="BOOL" Value="0"/>
@@ -14320,16 +14334,16 @@ Note: In generic mode there is no support for TCP/IP connection status. Please a
 </Tag>
 <Tag Name="Close_Knob" TagType="Base" DataType="Servo_Move" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[0,6.00000000e+002,3.70000000e+001,-1.00000000e+005,1,3.50000000e+001,[3245940,100,0],[3245940
-		,50,0],[0,100,0],[-1607366796,100,100]]]]>
+<![CDATA[[0,4.00000000e+002,3.70000000e+001,1.00000000e+005,1,3.50000000e+001,[3136908,100,0],[3136908,50
+		,0],[0,100,0],[-1607475828,100,100]]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="Servo_Move">
 <DataValueMember Name="EnableIn" DataType="BOOL" Value="0"/>
 <DataValueMember Name="EnableOut" DataType="BOOL" Value="0"/>
-<DataValueMember Name="Speed" DataType="REAL" Radix="Float" Value="600.0"/>
+<DataValueMember Name="Speed" DataType="REAL" Radix="Float" Value="400.0"/>
 <DataValueMember Name="Torque" DataType="REAL" Radix="Float" Value="37.0"/>
-<DataValueMember Name="Position" DataType="REAL" Radix="Float" Value="-100000.0"/>
+<DataValueMember Name="Position" DataType="REAL" Radix="Float" Value="100000.0"/>
 <DataValueMember Name="Torqued" DataType="BOOL" Value="0"/>
 <DataValueMember Name="DN" DataType="BOOL" Value="0"/>
 <DataValueMember Name="Stop" DataType="BOOL" Value="0"/>
@@ -14370,8 +14384,8 @@ Note: In generic mode there is no support for TCP/IP connection status. Please a
 </Tag>
 <Tag Name="Close_Rapid" TagType="Base" DataType="Servo_Move" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[0,8.00000000e+003,8.00000000e+001,5.50000000e+005,1,7.80000000e+001,[2042582,50,0],[2042582,150
-		,0],[2042122,100,0],[2042582,100,0]]]]>
+<![CDATA[[0,8.00000000e+003,8.00000000e+001,5.50000000e+005,1,7.80000000e+001,[2866716,50,0],[2866716,150
+		,0],[2866286,100,0],[-1607746020,100,100]]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="Servo_Move">
@@ -14391,8 +14405,8 @@ Note: In generic mode there is no support for TCP/IP connection status. Please a
 </Tag>
 <Tag Name="Close_Step" TagType="Base" DataType="Servo_Move" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[0,6.00000000e+002,3.70000000e+001,1.00000000e+006,1,3.50000000e+001,[2021432,100,0],[2021432,150
-		,0],[2021412,100,0],[2021432,100,0]]]]>
+<![CDATA[[0,6.00000000e+002,3.70000000e+001,1.00000000e+006,1,3.50000000e+001,[1550142,100,0],[1550142,150
+		,0],[1550112,100,0],[-1609062594,100,100]]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="Servo_Move">
@@ -14442,12 +14456,12 @@ Note: In generic mode there is no support for TCP/IP connection status. Please a
 </Tag>
 <Tag Name="Cycle_Count_Ctr" TagType="Base" DataType="COUNTER" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[536870912,0,1727]]]>
+<![CDATA[[536870912,0,1766]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="COUNTER">
 <DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="0"/>
-<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="1727"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="1766"/>
 <DataValueMember Name="CU" DataType="BOOL" Value="0"/>
 <DataValueMember Name="CD" DataType="BOOL" Value="0"/>
 <DataValueMember Name="DN" DataType="BOOL" Value="1"/>
@@ -14482,7 +14496,7 @@ Note: In generic mode there is no support for TCP/IP connection status. Please a
 </Tag>
 <Tag Name="Datalogging_Time_Delay" TagType="Base" DataType="TIMER" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[2066412,500,0]]]>
+<![CDATA[[1562602,500,0]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="TIMER">
@@ -14526,7 +14540,7 @@ Note: In generic mode there is no support for TCP/IP connection status. Please a
 </Tag>
 <Tag Name="Empty_Pallet_Timer" TagType="Base" DataType="TIMER" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[2841093,5000,0]]]>
+<![CDATA[[1546852,5000,0]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="TIMER">
@@ -14540,7 +14554,7 @@ Note: In generic mode there is no support for TCP/IP connection status. Please a
 </Tag>
 <Tag Name="Empty_Pallet_Timer2" TagType="Base" DataType="TIMER" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[2065602,5000,0]]]>
+<![CDATA[[8874,5000,0]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="TIMER">
@@ -14562,15 +14576,15 @@ Note: In generic mode there is no support for TCP/IP connection status. Please a
 </Tag>
 <Tag Name="Fastest_Delay" TagType="Base" DataType="TIMER" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[2981603,100,0]]]>
+<![CDATA[[-1609792564,100,100]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="TIMER">
 <DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="100"/>
-<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="0"/>
-<DataValueMember Name="EN" DataType="BOOL" Value="0"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="100"/>
+<DataValueMember Name="EN" DataType="BOOL" Value="1"/>
 <DataValueMember Name="TT" DataType="BOOL" Value="0"/>
-<DataValueMember Name="DN" DataType="BOOL" Value="0"/>
+<DataValueMember Name="DN" DataType="BOOL" Value="1"/>
 </Structure>
 </Data>
 </Tag>
@@ -14807,7 +14821,7 @@ Data Length]]>
 <![CDATA[Message Get Diagnosis Module]]>
 </Description>
 <Data Format="Message">
-<MessageParameters MessageType="CIP Generic" RequestedLength="0" ConnectedFlag="2" ConnectionPath="2, 192.168.1.86" CommTypeCode="0" ServiceCode="16#000e" ObjectType="16#0065" TargetObject="3" AttributeNumber="16#0074" LocalIndex="0" DestinationTag="MCP_00.MISC.DiagnosticData[0]"
+<MessageParameters MessageType="CIP Generic" RequestedLength="0" ConnectedFlag="2" ConnectionPath="2, 192.168.1.86" CommTypeCode="0" ServiceCode="16#000e" ObjectType="16#0065" TargetObject="1" AttributeNumber="16#0074" LocalIndex="0" DestinationTag="MCP_00.MISC.DiagnosticData[0]"
  LargePacketUsage="false"/>
 </Data>
 </Tag>
@@ -14816,7 +14830,7 @@ Data Length]]>
 <![CDATA[Message Get Get Process Alram Module]]>
 </Description>
 <Data Format="Message">
-<MessageParameters MessageType="CIP Generic" RequestedLength="0" ConnectedFlag="2" ConnectionPath="2, 192.168.1.86" CommTypeCode="0" ServiceCode="16#000e" ObjectType="16#0065" TargetObject="3" AttributeNumber="16#0075" LocalIndex="0" DestinationTag="MCP_00.MISC.ProcessAlarmData[0]"
+<MessageParameters MessageType="CIP Generic" RequestedLength="0" ConnectedFlag="2" ConnectionPath="2, 192.168.1.86" CommTypeCode="0" ServiceCode="16#000e" ObjectType="16#0065" TargetObject="1" AttributeNumber="16#0075" LocalIndex="0" DestinationTag="MCP_00.MISC.ProcessAlarmData[0]"
  LargePacketUsage="false"/>
 </Data>
 </Tag>
@@ -14983,20 +14997,28 @@ Send Data]]>
 </Tag>
 <Tag Name="Last_Test_Data" TagType="Base" DataType="REAL" Dimensions="8" Radix="Float" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[0.00000000e+000,1.95312500e-004,8.06640625e+000,1.51601562e+001,5.97851562e+001,4.87890631e-001
+<![CDATA[[0.00000000e+000,0.00000000e+000,5.09765625e+000,1.48203125e+001,5.76601562e+001,9.70898449e-001
 		,0.00000000e+000,0.00000000e+000]]]>
 </Data>
 <Data Format="Decorated">
 <Array DataType="REAL" Dimensions="8" Radix="Float">
 <Element Index="[0]" Value="0.0"/>
-<Element Index="[1]" Value="1.95312500e-004"/>
-<Element Index="[2]" Value="8.066406"/>
-<Element Index="[3]" Value="15.160156"/>
-<Element Index="[4]" Value="59.785156"/>
-<Element Index="[5]" Value="0.48789063"/>
+<Element Index="[1]" Value="0.0"/>
+<Element Index="[2]" Value="5.0976562"/>
+<Element Index="[3]" Value="14.8203125"/>
+<Element Index="[4]" Value="57.660156"/>
+<Element Index="[5]" Value="0.97089845"/>
 <Element Index="[6]" Value="0.0"/>
 <Element Index="[7]" Value="0.0"/>
 </Array>
+</Data>
+</Tag>
+<Tag Name="Load_PB_ONS" TagType="Base" DataType="BOOL" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[0]]>
+</Data>
+<Data Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
 </Data>
 </Tag>
 <Tag Name="MCP" TagType="Base" DataType="MCP" Constant="false" ExternalAccess="Read/Write">
@@ -15036,47 +15058,47 @@ Send Data]]>
 </Comment>
 </Comments>
 <Data Format="L5K">
-<![CDATA[[[[0.00000000e+000,400,4,0],[[[3,1.00000000e+002,5.00000000e+001,[-1609332421,50,50],[2847771,100,0]],0],[[3,5.00000000e+001
-		,5.00000000e+001,[-1607379498,50,50],[2343667,50,0]],0],[[311,1.00000000e+002,5.00000000e+001,[2841492
-		,50,0],[-1609332421,100,100]],0],[[1,0.00000000e+000,0.00000000e+000,[0,0,0],[0,0,0]],0],[[1,0.00000000e+000,0.00000000e+000
-		,[0,0,0],[0,0,0]],0]],[[[311,1.00000000e+002,5.00000000e+001,[2842591,50,0],[-1609332421,100,100]],0],0,[311,1.00000000e+002
-		,5.00000000e+001,[2978981,50,0],[-1609332411,100,100]],[3,1.00000000e+002,5.00000000e+001,[-1609332411
-		,50,50],[2978941,100,0]]],[0,[1,0.00000000e+000,0.00000000e+000,[0,0,0],[0,0,0]]],[[2847963,250,0],[0,0,0],[0,0,0]],[3,5.00000000e+001
-		,1.00000000e+003,[-1609332411,1000,1001],[2845462,50,0]],[311,2.50000000e+002,5.00000000e+001,[301556
-		,50,0],[-1609332401,250,250]]],[[[39,0,4,12288,12288],0,0,8.50000000e+001,0,[1800483,350,0],0.00000000e+000,7.50000000e+001
-		,1,[6.43550110e+001,9.00000000e+001,3.58119995e+002,-9.01281738e+001,2.18668646e-007,-2.91322365e+001
-		],[6.43550110e+001,9.00000000e+001,3.58119995e+002,-9.01281738e+001,2.18668646e-007,-2.91322365e+001
-		],[6.43550034e+001,1.30000000e+002,3.58119995e+002,-9.00000000e+001,-4.47992221e-007,-3.47109146e+001
-		],68,0,5.00000000e+001,[0,[2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
-		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0],[2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+<![CDATA[[[[0.00000000e+000,400,4,0],[[[311,1.00000000e+002,5.00000000e+001,[1543920,50,0],[-1610562900,100,100]],0
+		],[[3,5.00000000e+001,5.00000000e+001,[-1607379498,50,50],[2343667,50,0]],0],[[311,1.00000000e+002,5.00000000e+001
+		,[1545180,50,0],[-1610562900,100,100]],0],[[1,0.00000000e+000,0.00000000e+000,[0,0,0],[0,0,0]],0],[[1,0.00000000e+000
+		,0.00000000e+000,[0,0,0],[0,0,0]],0]],[[[3,1.00000000e+002,5.00000000e+001,[-1610562900,50,50],[1562800,100,0]],0],0
+		,[3,1.00000000e+002,5.00000000e+001,[-1610562900,50,50],[1561960,100,0]],[311,1.00000000e+002,5.00000000e+001
+		,[1561980,50,0],[-1610562900,100,100]]],[0,[1,0.00000000e+000,0.00000000e+000,[0,0,0],[0,0,0]]],[[1543512,250,0],[0,0,0],[0,0
+		,0]],[311,5.00000000e+001,1.00000000e+003,[1548950,1000,0],[-1610562900,50,50]],[311,2.50000000e+002,5.00000000e+001
+		,[965460,50,0],[-1610562880,250,250]]],[[[39,0,4,12288,12288],0,0,8.50000000e+001,0,[1800483,350,0],0.00000000e+000
+		,7.50000000e+001,1,[6.43550110e+001,9.00000000e+001,3.58119995e+002,-9.01281738e+001,2.18668646e-007
+		,-2.91322365e+001],[6.43550110e+001,9.00000000e+001,3.58119995e+002,-9.01281738e+001,2.18668646e-007
+		,-2.91322365e+001],[6.43550034e+001,1.30000000e+002,3.58119995e+002,-9.00000000e+001,-4.47992221e-007
+		,-3.47109146e+001],68,0,5.00000000e+001,[0,[2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
 		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0],[2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
-		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0],0,[0,0.00000000e+000,0.00000000e+000
-		,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000,0,32051,36],0.00000000e+000
-		,0.00000000e+000,0.00000000e+000,5.00000000e+000,0.00000000e+000],[0,7.50000000e+001,0,32080
-		,36],[0,1.72641392e+001,-8.83441067e+000,-1.91588211e+001,-9.84151840e+001,-7.48703232e+001
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0],[2#0,2#0,2#0,2#0,2#0,2#0
+		,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0],0,[0,0.00000000e+000
+		,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000,0,32051
+		,36],0.00000000e+000,0.00000000e+000,0.00000000e+000,5.00000000e+000,0.00000000e+000],[0,7.50000000e+001
+		,0,32080,36],[0,1.72641392e+001,-8.83441067e+000,-1.91588211e+001,-9.84151840e+001,-7.48703232e+001
 		,0.00000000e+000,0,32010,36],[3,0],[0,2.00000000e+000,0.00000000e+000,0,0,36],[0,1.00000000e+002,1.00000000e+002
 		,1.00000000e+002,1.00000000e+002,1.00000000e+002,5.00000000e+001,0,0,36],[0,6.43550110e+001,9.00000000e+001
 		,3.58119995e+002,-9.01281738e+001,2.18668646e-007,-2.91322365e+001,0,32030,36],[0,8.50000000e+001
-		,0,32110,36],2],[0,[311,1.00000000e+002,5.00000000e+001,[257455,50,0],[-1609332401,100,100]],[3,1.00000000e+002
-		,5.00000000e+001,[-1609332401,50,50],[2822261,100,0]],0],[[311,1.00000000e+002,5.00000000e+001,[256335
-		,50,0],[-1609332371,100,100]],[3,1.00000000e+002,5.00000000e+001,[-1609332371,50,50],[256705,100,0]],0],[[0,[1,0,0
-		,0,0],[3,22,22],[0,1.45156250e+001,2.82500000e+001,0.00000000e+000,0.00000000e+000,0.00000000e+000
+		,0,32110,36],2],[0,[311,1.00000000e+002,5.00000000e+001,[1559780,50,0],[-1610562880,100,100]],[3,1.00000000e+002
+		,5.00000000e+001,[-1610562880,50,50],[1560150,100,0]],0],[[311,1.00000000e+002,5.00000000e+001,[1561410
+		,50,0],[-1610562870,100,100]],[3,1.00000000e+002,5.00000000e+001,[-1610562870,50,50],[1561780,100,0]],0],[[0,[1,0
+		,0,0,0],[3,22,22],[0,1.43734379e+001,2.87218761e+001,0.00000000e+000,0.00000000e+000,0.00000000e+000
 		,0.00000000e+000,0.00000000e+000,0.00000000e+000,11,15],[0,0],[2],1,0.00000000e+000,0.00000000e+000
 		,[1.53925788e+000,1.53964841e+000,1.53691411e+000,1.53710938e+000,1.53730476e+000,1.53789067e+000
 		,1.53789067e+000,1.53828132e+000,1.53867185e+000,1.53867185e+000,1.53886724e+000,0.00000000e+000
 		,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000
 		,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000
-		,0.00000000e+000],[2012635,1000,0],[2012635,75,0],0,0.00000000e+000,0.00000000e+000],[0,[1,0,0,0,0],[3,22,22],[0,1.45156250e+001
-		,2.54250011e+001,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000
+		,0.00000000e+000],[2012635,1000,0],[2012635,75,0],0,0.00000000e+000,0.00000000e+000],[0,[1,0,0,0,0],[3,22,22],[0,1.43718748e+001
+		,2.57843761e+001,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000
 		,0.00000000e+000,11,15],[0,0],[0],1,0.00000000e+000,0.00000000e+000,[7.82421875e+000,7.81640625e+000
 		,7.80859375e+000,7.80468750e+000,7.79687500e+000,7.79687500e+000,7.79687500e+000,7.84375000e+000
 		,7.84765625e+000,7.83984375e+000,7.83203125e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000
 		,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000
 		,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000],[2040885
-		,1000,0],[2040885,75,0],0,8.80000019e+000,7.19999981e+000]],[0,2,2,[2049562,33,0],[2049562,33,0]],[1,[30,'010062810150300021T15UOB00032$r$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
-		],0],[311,5.00000000e+002,5.00000000e+001,[2842691,50,0],[-1609332341,500,500]],[80,0,15332,12,[-247901692
-		,16,[7180457,3200,0],3]],[311,1.00000000e+002,5.00000000e+001,[2840942,50,0],[-1324119669,100,1042010]],[0],[[[0
-		,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
+		,1000,0],[2040885,75,0],0,8.80000019e+000,7.19999981e+000]],[0,3,3,[1555942,33,0],[1555953,33,0]],[1,[30,'010062810150300021T15UOB00032$r$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
+		],16],[3,5.00000000e+002,5.00000000e+001,[-1610562850,50,50],[1562760,500,0]],[80,0,15332,12,[-247901692,16
+		,[-1065998374,3200,490],3]],[311,1.00000000e+002,5.00000000e+001,[1562680,50,0],[-1325350178,100,2681500
+		]],[0],[[[0,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
 		],0],[[0,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
 		],0],[[0,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
 		],0],[[0,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
@@ -15115,7 +15137,7 @@ Send Data]]>
 		],0],[[0,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
 		],0],[[0,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
 		],0],[[0,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
-		],0],[[30,'010062810150300021T15UOB35092$r$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
+		],0],[[30,'010062810150300021T15UOB35187$r$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
 		],56],[[0,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
 		],0],[[0,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
 		],0],[[0,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
@@ -15176,17 +15198,17 @@ Send Data]]>
 		],0],[[0,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
 		],0],[[0,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
 		],0],[[0,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
-		],0]],[[0.00000000e+000,0.00000000e+000,[0,0,0],0],[0.00000000e+000,1.00000000e-001,[2021962,500,0],1000],[2.00000000e+000
-		,5.00000000e-001,[2020010,500,0],50],[8.00000000e+000,8.00000000e-001,[287249404,500,0],1],[1.50000000e+001
-		,1.50000000e+000,[2040781,500,0],4007],[5.00000000e+001,2.00000000e+001,[287264324,500,0],13],[0.00000000e+000
-		,0.00000000e+000,[8,1000,0],4884]],[4079619,5.00000000e+001,5.00000000e+001,[-1609331931,50,50],[418201388
+		],0]],[[0.00000000e+000,0.00000000e+000,[0,0,0],0],[0.00000000e+000,1.00000000e-001,[1550672,500,0],1000],[2.00000000e+000
+		,5.00000000e-001,[2020010,500,0],50],[8.00000000e+000,8.00000000e-001,[288073488,500,0],1],[1.50000000e+001
+		,1.50000000e+000,[2864956,500,0],4007],[5.00000000e+001,2.00000000e+001,[288088158,500,0],13],[0.00000000e+000
+		,0.00000000e+000,[8,1000,0],4884]],[4079619,5.00000000e+001,5.00000000e+001,[-1610562460,50,50],[416779666
 		,50,0]],[76],[-127,0,5.00000000e+001,6.00000000e+002,5.50000000e+005,0.00000000e+000,0.00000000e+000
 		,1,0.00000000e+000,0.00000000e+000,3.00000000e+000,1.00000000e+000,0,[311,5.00000000e+001,5.00000000e+001
-		,[1127810,50,0],[-1606920516,50,50]],[3,1.00000000e+002,5.00000000e+001,[-1609331920,50,50],[3616190,100
-		,0]],0],0],5,5.62700000e+003,[[3,2500,0,[2985643,2500,0]],[808464643,2500,0,[270489428,2500,0]],[858796035,2500,0,[2021032
-		,2500,0]],[3,2500,0,[2053332,2500,0]],[3,2500,0,[1521742,2500,0]],[1112014851,2500,0,[0,2500,0]],[3,2500,0,[288191755,2500
-		,0]],[3,2500,0,[2065882,2500,0]],[69507,2500,0,[287650675,2500,0]],[3,2500,0,[2438873,2500,0]],[63968003,2500,0,[2436833
-		,2500,0]],[3,2500,0,[147669476,2500,0]],[3,2500,0,[0,2500,0]],[1330795075,2500,0,[271921456,2500,0]],[1112495363,2500,0
+		,[1127810,50,0],[-1606920516,50,50]],[3,1.00000000e+002,5.00000000e+001,[-1610562439,50,50],[3616190,100
+		,0]],0],0],115,5.73700000e+003,[[3,2500,0,[1547632,2500,0]],[808464643,2500,0,[269997288,2500,0]],[858796035,2500,0
+		,[1548502,2500,0]],[3,2500,0,[1560202,2500,0]],[3,2500,0,[1521742,2500,0]],[1112014851,2500,0,[0,2500,0]],[3,2500,0,[286759744
+		,2500,0]],[3,2500,0,[1562082,2500,0]],[69507,2500,0,[286165404,2500,0]],[3,2500,0,[3547816,2500,0]],[63968003,2500,0,[3537246
+		,2500,0]],[3,2500,0,[149437846,2500,0]],[3,2500,0,[0,2500,0]],[1330795075,2500,0,[271921456,2500,0]],[1112495363,2500,0
 		,[0,2500,0]],[3,2500,0,[0,2500,0]],[3,2500,0,[0,2500,0]],[1112014851,2500,0,[50,2500,0]],[3,2500,0,[12,2500,0]],[4210883,2500,0,[3,2500
 		,0]],[1112014851,2500,0,[0,2500,0]],[220,13,0,[0,-2147483640,-2147483618]],[-247901692,63968020,4079810,[1,28,3]],[0
 		,11,483196928,[1718042986,-858963484,-858932916]],[47436,0,0,[0,0,0]],[0,1330795077,808464688,[825766454,808792368
@@ -15198,8 +15220,8 @@ Send Data]]>
 		,0,0,[0,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0
 		,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0,0,0]],[1,0,0,[0,0,0]]],[1111490560
 		,1112014848],[0,0],[0,[0,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
-		],0,0.00000000e+000],3.18181824e+002,1.#INF0000e+000,[0,60000,0],[0,60,23],[-1607715755,6000,6000],[0,60,43
-		],28,[536870912,0,0],[536870912,0,11],[2981594,1000,0],[2985644,1000,0],[0,60,44],[0,60,28],0,0,0,0,0,[[[0.00000000e+000,40
+		],0,0.00000000e+000],6.44000000e+003,1.#INF0000e+000,[0,60000,0],[0,60,30],[-1607715755,6000,6000],[0,60,33
+		],28,[536870912,0,3],[536870912,0,12],[1577822,1000,0],[3547816,1000,0],[0,60,50],[0,60,57],0,0,0,0,0,[[[0.00000000e+000,40
 		,0,0],[[[20,4.35803822e-043,5.00000000e+001,[1112014848,67582,50],[0,-1610542964,50]],48],[[-2147483568,-1.68155816e-044
 		,-9.17662042e+029,[63967772,4210882,1],[0,3,311]],0],[[1112014848,9.74504991e-041,7.00649232e-044,[0,-1325330291
 		,50],[220,13,0]],0],[[-2147483640,-4.20389539e-044,-9.17662042e+029,[63968020,4079810,1],[28,3,0]],11],[[483196928
@@ -15228,7 +15250,7 @@ Send Data]]>
 		],[311,1112014848,1112014848]],[67582,7.00649232e-044,0.00000000e+000,[-1610542964,50,50],[-2147483568
 		,-2147483636,-247901692]],28],[[2,[1,0,0,3,311],[1112014848,1112014848,69543],[50,0.00000000e+000,-1.87813787e-009
 		,7.00649232e-044,3.08285662e-043,1.82168800e-044,0.00000000e+000,0.00000000e+000,-1.12103877e-044
-		,30,0],[20996,-3783],[22],0,1.40129846e-045,3.92363570e-044,[4.20389539e-045,0.00000000e+000,1.54142831e-044
+		,30,0],[20996,-3783],[18],0,1.40129846e-045,3.92363570e-044,[4.20389539e-045,0.00000000e+000,1.54142831e-044
 		,1.35657620e-021,2.73018334e+023,-1.07613984e+008,-1.07858528e+008,6.64719940e-041,0.00000000e+000
 		,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000,0.00000000e+000,3.52860698e+009
 		,6.40983266e-010,2.68040656e-009,6.59173160e-010,6.40969222e-010,3.08780246e-009,5.18332100e+001
@@ -15524,15 +15546,15 @@ Send Data]]>
 <StructureMember Name="Present" DataType="AOI_DIG_INPUT_DEB">
 <DataValueMember Name="EnableIn" DataType="BOOL" Value="1"/>
 <DataValueMember Name="EnableOut" DataType="BOOL" Value="1"/>
-<DataValueMember Name="INPUT" DataType="BOOL" Value="0"/>
+<DataValueMember Name="INPUT" DataType="BOOL" Value="1"/>
 <DataValueMember Name="RESET" DataType="BOOL" Value="0"/>
 <DataValueMember Name="ON_TIME" DataType="REAL" Radix="Float" Value="100.0"/>
 <DataValueMember Name="OFF_TIME" DataType="REAL" Radix="Float" Value="50.0"/>
-<DataValueMember Name="DEB_INPUT" DataType="BOOL" Value="0"/>
-<DataValueMember Name="IN" DataType="BOOL" Value="0"/>
+<DataValueMember Name="DEB_INPUT" DataType="BOOL" Value="1"/>
+<DataValueMember Name="IN" DataType="BOOL" Value="1"/>
 <DataValueMember Name="ON_TT" DataType="BOOL" Value="0"/>
 <DataValueMember Name="OFF_TT" DataType="BOOL" Value="0"/>
-<DataValueMember Name="OUT" DataType="BOOL" Value="0"/>
+<DataValueMember Name="OUT" DataType="BOOL" Value="1"/>
 </StructureMember>
 <DataValueMember Name="Release" DataType="BOOL" Value="0"/>
 <DataValueMember Name="Hold" DataType="BOOL" Value="0"/>
@@ -15620,15 +15642,15 @@ Send Data]]>
 <StructureMember Name="Present" DataType="AOI_DIG_INPUT_DEB">
 <DataValueMember Name="EnableIn" DataType="BOOL" Value="1"/>
 <DataValueMember Name="EnableOut" DataType="BOOL" Value="1"/>
-<DataValueMember Name="INPUT" DataType="BOOL" Value="1"/>
+<DataValueMember Name="INPUT" DataType="BOOL" Value="0"/>
 <DataValueMember Name="RESET" DataType="BOOL" Value="0"/>
 <DataValueMember Name="ON_TIME" DataType="REAL" Radix="Float" Value="100.0"/>
 <DataValueMember Name="OFF_TIME" DataType="REAL" Radix="Float" Value="50.0"/>
-<DataValueMember Name="DEB_INPUT" DataType="BOOL" Value="1"/>
-<DataValueMember Name="IN" DataType="BOOL" Value="1"/>
+<DataValueMember Name="DEB_INPUT" DataType="BOOL" Value="0"/>
+<DataValueMember Name="IN" DataType="BOOL" Value="0"/>
 <DataValueMember Name="ON_TT" DataType="BOOL" Value="0"/>
 <DataValueMember Name="OFF_TT" DataType="BOOL" Value="0"/>
-<DataValueMember Name="OUT" DataType="BOOL" Value="1"/>
+<DataValueMember Name="OUT" DataType="BOOL" Value="0"/>
 </StructureMember>
 <DataValueMember Name="Release" DataType="BOOL" Value="0"/>
 <DataValueMember Name="Hold" DataType="BOOL" Value="0"/>
@@ -15636,19 +15658,6 @@ Send Data]]>
 <DataValueMember Name="Ext" DataType="BOOL" Value="0"/>
 <DataValueMember Name="Ret" DataType="BOOL" Value="0"/>
 <StructureMember Name="Extd" DataType="AOI_DIG_INPUT_DEB">
-<DataValueMember Name="EnableIn" DataType="BOOL" Value="1"/>
-<DataValueMember Name="EnableOut" DataType="BOOL" Value="1"/>
-<DataValueMember Name="INPUT" DataType="BOOL" Value="1"/>
-<DataValueMember Name="RESET" DataType="BOOL" Value="0"/>
-<DataValueMember Name="ON_TIME" DataType="REAL" Radix="Float" Value="100.0"/>
-<DataValueMember Name="OFF_TIME" DataType="REAL" Radix="Float" Value="50.0"/>
-<DataValueMember Name="DEB_INPUT" DataType="BOOL" Value="1"/>
-<DataValueMember Name="IN" DataType="BOOL" Value="1"/>
-<DataValueMember Name="ON_TT" DataType="BOOL" Value="0"/>
-<DataValueMember Name="OFF_TT" DataType="BOOL" Value="0"/>
-<DataValueMember Name="OUT" DataType="BOOL" Value="1"/>
-</StructureMember>
-<StructureMember Name="Retd" DataType="AOI_DIG_INPUT_DEB">
 <DataValueMember Name="EnableIn" DataType="BOOL" Value="1"/>
 <DataValueMember Name="EnableOut" DataType="BOOL" Value="1"/>
 <DataValueMember Name="INPUT" DataType="BOOL" Value="0"/>
@@ -15660,6 +15669,19 @@ Send Data]]>
 <DataValueMember Name="ON_TT" DataType="BOOL" Value="0"/>
 <DataValueMember Name="OFF_TT" DataType="BOOL" Value="0"/>
 <DataValueMember Name="OUT" DataType="BOOL" Value="0"/>
+</StructureMember>
+<StructureMember Name="Retd" DataType="AOI_DIG_INPUT_DEB">
+<DataValueMember Name="EnableIn" DataType="BOOL" Value="1"/>
+<DataValueMember Name="EnableOut" DataType="BOOL" Value="1"/>
+<DataValueMember Name="INPUT" DataType="BOOL" Value="1"/>
+<DataValueMember Name="RESET" DataType="BOOL" Value="0"/>
+<DataValueMember Name="ON_TIME" DataType="REAL" Radix="Float" Value="100.0"/>
+<DataValueMember Name="OFF_TIME" DataType="REAL" Radix="Float" Value="50.0"/>
+<DataValueMember Name="DEB_INPUT" DataType="BOOL" Value="1"/>
+<DataValueMember Name="IN" DataType="BOOL" Value="1"/>
+<DataValueMember Name="ON_TT" DataType="BOOL" Value="0"/>
+<DataValueMember Name="OFF_TT" DataType="BOOL" Value="0"/>
+<DataValueMember Name="OUT" DataType="BOOL" Value="1"/>
 </StructureMember>
 </StructureMember>
 <StructureMember Name="Diverter" DataType="Diverter">
@@ -15711,15 +15733,15 @@ Send Data]]>
 <StructureMember Name="Downstream_Full" DataType="AOI_DIG_INPUT_DEB">
 <DataValueMember Name="EnableIn" DataType="BOOL" Value="1"/>
 <DataValueMember Name="EnableOut" DataType="BOOL" Value="1"/>
-<DataValueMember Name="INPUT" DataType="BOOL" Value="0"/>
+<DataValueMember Name="INPUT" DataType="BOOL" Value="1"/>
 <DataValueMember Name="RESET" DataType="BOOL" Value="0"/>
 <DataValueMember Name="ON_TIME" DataType="REAL" Radix="Float" Value="50.0"/>
 <DataValueMember Name="OFF_TIME" DataType="REAL" Radix="Float" Value="1000.0"/>
-<DataValueMember Name="DEB_INPUT" DataType="BOOL" Value="0"/>
-<DataValueMember Name="IN" DataType="BOOL" Value="0"/>
+<DataValueMember Name="DEB_INPUT" DataType="BOOL" Value="1"/>
+<DataValueMember Name="IN" DataType="BOOL" Value="1"/>
 <DataValueMember Name="ON_TT" DataType="BOOL" Value="0"/>
 <DataValueMember Name="OFF_TT" DataType="BOOL" Value="0"/>
-<DataValueMember Name="OUT" DataType="BOOL" Value="0"/>
+<DataValueMember Name="OUT" DataType="BOOL" Value="1"/>
 </StructureMember>
 <StructureMember Name="Reject_Full" DataType="AOI_DIG_INPUT_DEB">
 <DataValueMember Name="EnableIn" DataType="BOOL" Value="1"/>
@@ -16149,8 +16171,8 @@ Send Data]]>
 <DataValueMember Name="EXH" DataType="BOOL" Value="0"/>
 <DataValueMember Name="OPL" DataType="BOOL" Value="0"/>
 <DataValueMember Name="TMF" DataType="BOOL" Value="0"/>
-<DataValueMember Name="Pressure" DataType="REAL" Radix="Float" Value="14.515625"/>
-<DataValueMember Name="Temperature" DataType="REAL" Radix="Float" Value="28.25"/>
+<DataValueMember Name="Pressure" DataType="REAL" Radix="Float" Value="14.373438"/>
+<DataValueMember Name="Temperature" DataType="REAL" Radix="Float" Value="28.721876"/>
 <DataValueMember Name="VolFlow" DataType="REAL" Radix="Float" Value="0.0"/>
 <DataValueMember Name="MassFlow" DataType="REAL" Radix="Float" Value="0.0"/>
 <DataValueMember Name="ActualSetpoint" DataType="REAL" Radix="Float" Value="0.0"/>
@@ -16257,8 +16279,8 @@ Send Data]]>
 <DataValueMember Name="EXH" DataType="BOOL" Value="0"/>
 <DataValueMember Name="OPL" DataType="BOOL" Value="0"/>
 <DataValueMember Name="TMF" DataType="BOOL" Value="0"/>
-<DataValueMember Name="Pressure" DataType="REAL" Radix="Float" Value="14.515625"/>
-<DataValueMember Name="Temperature" DataType="REAL" Radix="Float" Value="25.425001"/>
+<DataValueMember Name="Pressure" DataType="REAL" Radix="Float" Value="14.371875"/>
+<DataValueMember Name="Temperature" DataType="REAL" Radix="Float" Value="25.784376"/>
 <DataValueMember Name="VolFlow" DataType="REAL" Radix="Float" Value="0.0"/>
 <DataValueMember Name="MassFlow" DataType="REAL" Radix="Float" Value="0.0"/>
 <DataValueMember Name="ActualSetpoint" DataType="REAL" Radix="Float" Value="0.0"/>
@@ -16342,8 +16364,8 @@ Send Data]]>
 <DataValueMember Name="Ready" DataType="BOOL" Value="0"/>
 <DataValueMember Name="Result_Ready" DataType="BOOL" Value="0"/>
 <DataValueMember Name="Busy" DataType="BOOL" Value="0"/>
-<DataValueMember Name="Prog" DataType="SINT" Radix="Decimal" Value="2"/>
-<DataValueMember Name="Current_Prog" DataType="SINT" Radix="Decimal" Value="2"/>
+<DataValueMember Name="Prog" DataType="SINT" Radix="Decimal" Value="3"/>
+<DataValueMember Name="Current_Prog" DataType="SINT" Radix="Decimal" Value="3"/>
 <StructureMember Name="Trigger_ON_TM" DataType="TIMER">
 <DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="33"/>
 <DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="0"/>
@@ -16371,21 +16393,21 @@ Send Data]]>
 <DataValueMember Name="Result_avalible" DataType="BOOL" Value="0"/>
 <DataValueMember Name="Read_complete" DataType="BOOL" Value="0"/>
 <DataValueMember Name="Read_complete_clear" DataType="BOOL" Value="0"/>
-<DataValueMember Name="Read_success" DataType="BOOL" Value="0"/>
+<DataValueMember Name="Read_success" DataType="BOOL" Value="1"/>
 <DataValueMember Name="Read_failed" DataType="BOOL" Value="0"/>
 </StructureMember>
 <StructureMember Name="Part_Present" DataType="AOI_DIG_INPUT_DEB">
 <DataValueMember Name="EnableIn" DataType="BOOL" Value="1"/>
 <DataValueMember Name="EnableOut" DataType="BOOL" Value="1"/>
-<DataValueMember Name="INPUT" DataType="BOOL" Value="1"/>
+<DataValueMember Name="INPUT" DataType="BOOL" Value="0"/>
 <DataValueMember Name="RESET" DataType="BOOL" Value="0"/>
 <DataValueMember Name="ON_TIME" DataType="REAL" Radix="Float" Value="500.0"/>
 <DataValueMember Name="OFF_TIME" DataType="REAL" Radix="Float" Value="50.0"/>
-<DataValueMember Name="DEB_INPUT" DataType="BOOL" Value="1"/>
-<DataValueMember Name="IN" DataType="BOOL" Value="1"/>
+<DataValueMember Name="DEB_INPUT" DataType="BOOL" Value="0"/>
+<DataValueMember Name="IN" DataType="BOOL" Value="0"/>
 <DataValueMember Name="ON_TT" DataType="BOOL" Value="0"/>
 <DataValueMember Name="OFF_TT" DataType="BOOL" Value="0"/>
-<DataValueMember Name="OUT" DataType="BOOL" Value="1"/>
+<DataValueMember Name="OUT" DataType="BOOL" Value="0"/>
 </StructureMember>
 <StructureMember Name="Saftey" DataType="Safety">
 <DataValueMember Name="Lockout" DataType="BOOL" Value="0"/>
@@ -16859,7 +16881,7 @@ Send Data]]>
 <StructureMember Name="Code" DataType="STRING">
 <DataValueMember Name="LEN" DataType="DINT" Radix="Decimal" Value="30"/>
 <DataValueMember Name="DATA" DataType="STRING" Radix="ASCII">
-<![CDATA['010062810150300021T15UOB35092$r']]>
+<![CDATA['010062810150300021T15UOB35187$r']]>
 </DataValueMember>
 </StructureMember>
 <DataValueMember Name="Results" DataType="INT" Radix="Decimal" Value="56"/>
@@ -17702,8 +17724,8 @@ Send Data]]>
 </StructureMember>
 <DataValueMember Name="Reject_Pallet" DataType="BOOL" Value="0"/>
 </StructureMember>
-<DataValueMember Name="Part_Count" DataType="DINT" Radix="Decimal" Value="5"/>
-<DataValueMember Name="Lifetime_Part_Count" DataType="REAL" Radix="Float" Value="5627.0"/>
+<DataValueMember Name="Part_Count" DataType="DINT" Radix="Decimal" Value="115"/>
+<DataValueMember Name="Lifetime_Part_Count" DataType="REAL" Radix="Float" Value="5737.0"/>
 <ArrayMember Name="Fault_AOI" DataType="FAULT_AOI" Dimensions="100">
 <Element Index="[0]">
 <Structure DataType="FAULT_AOI">
@@ -18926,7 +18948,7 @@ Send Data]]>
 <DataValueMember Name="Needle_Bypass" DataType="BOOL" Value="0"/>
 <DataValueMember Name="Max_Cycle_Time" DataType="REAL" Radix="Float" Value="0.0"/>
 </StructureMember>
-<DataValueMember Name="Performance" DataType="REAL" Radix="Float" Value="318.18182"/>
+<DataValueMember Name="Performance" DataType="REAL" Radix="Float" Value="6440.0"/>
 <DataValueMember Name="Availability" DataType="REAL" Radix="Float" Value="1.$"/>
 <StructureMember Name="UptimeSTM" DataType="TIMER">
 <DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="60000"/>
@@ -18937,7 +18959,7 @@ Send Data]]>
 </StructureMember>
 <StructureMember Name="UptimeM" DataType="COUNTER">
 <DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="60"/>
-<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="23"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="30"/>
 <DataValueMember Name="CU" DataType="BOOL" Value="0"/>
 <DataValueMember Name="CD" DataType="BOOL" Value="0"/>
 <DataValueMember Name="DN" DataType="BOOL" Value="0"/>
@@ -18953,7 +18975,7 @@ Send Data]]>
 </StructureMember>
 <StructureMember Name="DowntimeM" DataType="COUNTER">
 <DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="60"/>
-<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="43"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="33"/>
 <DataValueMember Name="CU" DataType="BOOL" Value="0"/>
 <DataValueMember Name="CD" DataType="BOOL" Value="0"/>
 <DataValueMember Name="DN" DataType="BOOL" Value="0"/>
@@ -18963,7 +18985,7 @@ Send Data]]>
 <DataValueMember Name="Cycle_Time" DataType="DINT" Radix="Decimal" Value="28"/>
 <StructureMember Name="UptimeH" DataType="COUNTER">
 <DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="0"/>
-<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="3"/>
 <DataValueMember Name="CU" DataType="BOOL" Value="0"/>
 <DataValueMember Name="CD" DataType="BOOL" Value="0"/>
 <DataValueMember Name="DN" DataType="BOOL" Value="1"/>
@@ -18972,7 +18994,7 @@ Send Data]]>
 </StructureMember>
 <StructureMember Name="DowntimeH" DataType="COUNTER">
 <DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="0"/>
-<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="11"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="12"/>
 <DataValueMember Name="CU" DataType="BOOL" Value="0"/>
 <DataValueMember Name="CD" DataType="BOOL" Value="0"/>
 <DataValueMember Name="DN" DataType="BOOL" Value="1"/>
@@ -18995,7 +19017,7 @@ Send Data]]>
 </StructureMember>
 <StructureMember Name="UptimeS" DataType="COUNTER">
 <DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="60"/>
-<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="44"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="50"/>
 <DataValueMember Name="CU" DataType="BOOL" Value="0"/>
 <DataValueMember Name="CD" DataType="BOOL" Value="0"/>
 <DataValueMember Name="DN" DataType="BOOL" Value="0"/>
@@ -19004,7 +19026,7 @@ Send Data]]>
 </StructureMember>
 <StructureMember Name="DowntimeS" DataType="COUNTER">
 <DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="60"/>
-<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="28"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="57"/>
 <DataValueMember Name="CU" DataType="BOOL" Value="0"/>
 <DataValueMember Name="CD" DataType="BOOL" Value="0"/>
 <DataValueMember Name="DN" DataType="BOOL" Value="0"/>
@@ -19683,7 +19705,7 @@ Send Data]]>
 <StructureMember Name="Oxygen" DataType="Oxygen">
 <DataValueMember Name="Oxygen" DataType="BOOL" Value="0"/>
 <DataValueMember Name="To_100LPM" DataType="BOOL" Value="1"/>
-<DataValueMember Name="To_5LPM" DataType="BOOL" Value="1"/>
+<DataValueMember Name="To_5LPM" DataType="BOOL" Value="0"/>
 </StructureMember>
 <DataValueMember Name="Ready" DataType="BOOL" Value="0"/>
 <DataValueMember Name="Flow" DataType="REAL" Radix="Float" Value="1.40129846e-045"/>
@@ -23889,11 +23911,11 @@ Send Data]]>
 </Tag>
 <Tag Name="MCP_00" TagType="Base" DataType="UDT_ID86" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[[[[1,0,0,1,1,0,0,1,1,0,1,0,0,1,1,0],[0,15,0,0,112,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,9],[0,0,0,0],0],[[0,0,0,0,0,0,0,0,0,0
+<![CDATA[[[[[0,0,0,1,1,0,1,0,1,0,0,1,0,1,1,1],[0,15,0,0,112,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,9],[0,0,0,0],0],[[0,0,0,0,0,0,0,0,0,0
 		,0,0,0,0,0,0],[0,15,0,0,112,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,9],[0,0,0,0],0],[[0,0,0,0],[0,5,0,0,116,0,4,0,0,0,0,0,0,0
 		,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,60],[0,0,0,0],0],[[0,15,0,0,114,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 		,0,0,0,0,0,0,0,7,9],[0,0,0,0],0],[[0,15,0,0,114,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,9],[0,0,0,0],0]],[[[0,0,0,0,0,0,0,0,0]],[[1,0,0
-		,0,0,1,0,0,0,0,0,0,0,0,0,0]],[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]],[0,0],[0,0,[0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		,0,0,0,0,0,0,0,0,0,0,0,0,0]],[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]],[0,0],[0,0,[0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 		,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 		,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 		,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -23926,8 +23948,8 @@ Send Data]]>
 		,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 		,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 		,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-		,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],1,[-1072462389,64,20],[-1072462389
-		,64,20],[0,200,0],[0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0],[0,15,0,0,114,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,9],[0,0,0,0],12
+		,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],1,[-1073692249,64,30],[-1073692249
+		,64,30],[0,200,0],[0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0],[0,15,0,0,114,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,9],[0,0,0,0],12
 		,4,17],0]]]>
 </Data>
 <Data Format="Decorated">
@@ -23935,22 +23957,22 @@ Send Data]]>
 <StructureMember Name="IN" DataType="UDT_ID86_I">
 <StructureMember Name="M01_UR20_16DI_P" DataType="UDT_015_I">
 <StructureMember Name="Data" DataType="UDT_015_Data_I">
-<DataValueMember Name="Ch_00" DataType="BOOL" Radix="Decimal" Value="1"/>
+<DataValueMember Name="Ch_00" DataType="BOOL" Radix="Decimal" Value="0"/>
 <DataValueMember Name="Ch_01" DataType="BOOL" Radix="Decimal" Value="0"/>
 <DataValueMember Name="Ch_02" DataType="BOOL" Radix="Decimal" Value="0"/>
 <DataValueMember Name="Ch_03" DataType="BOOL" Radix="Decimal" Value="1"/>
 <DataValueMember Name="Ch_04" DataType="BOOL" Radix="Decimal" Value="1"/>
 <DataValueMember Name="Ch_05" DataType="BOOL" Radix="Decimal" Value="0"/>
-<DataValueMember Name="Ch_06" DataType="BOOL" Radix="Decimal" Value="0"/>
-<DataValueMember Name="Ch_07" DataType="BOOL" Radix="Decimal" Value="1"/>
+<DataValueMember Name="Ch_06" DataType="BOOL" Radix="Decimal" Value="1"/>
+<DataValueMember Name="Ch_07" DataType="BOOL" Radix="Decimal" Value="0"/>
 <DataValueMember Name="Ch_08" DataType="BOOL" Radix="Decimal" Value="1"/>
 <DataValueMember Name="Ch_09" DataType="BOOL" Radix="Decimal" Value="0"/>
-<DataValueMember Name="Ch_10" DataType="BOOL" Radix="Decimal" Value="1"/>
-<DataValueMember Name="Ch_11" DataType="BOOL" Radix="Decimal" Value="0"/>
+<DataValueMember Name="Ch_10" DataType="BOOL" Radix="Decimal" Value="0"/>
+<DataValueMember Name="Ch_11" DataType="BOOL" Radix="Decimal" Value="1"/>
 <DataValueMember Name="Ch_12" DataType="BOOL" Radix="Decimal" Value="0"/>
 <DataValueMember Name="Ch_13" DataType="BOOL" Radix="Decimal" Value="1"/>
 <DataValueMember Name="Ch_14" DataType="BOOL" Radix="Decimal" Value="1"/>
-<DataValueMember Name="Ch_15" DataType="BOOL" Radix="Decimal" Value="0"/>
+<DataValueMember Name="Ch_15" DataType="BOOL" Radix="Decimal" Value="1"/>
 </StructureMember>
 <StructureMember Name="Diagnostic" DataType="UDT_Diagnostic">
 <DataValueMember Name="Err_A" DataType="SINT" Radix="Decimal" Value="0"/>
@@ -24292,7 +24314,7 @@ Send Data]]>
 <DataValueMember Name="Ch_02" DataType="BOOL" Radix="Decimal" Value="0"/>
 <DataValueMember Name="Ch_03" DataType="BOOL" Radix="Decimal" Value="0"/>
 <DataValueMember Name="Ch_04" DataType="BOOL" Radix="Decimal" Value="0"/>
-<DataValueMember Name="Ch_05" DataType="BOOL" Radix="Decimal" Value="1"/>
+<DataValueMember Name="Ch_05" DataType="BOOL" Radix="Decimal" Value="0"/>
 <DataValueMember Name="Ch_06" DataType="BOOL" Radix="Decimal" Value="0"/>
 <DataValueMember Name="Ch_07" DataType="BOOL" Radix="Decimal" Value="0"/>
 <DataValueMember Name="Ch_08" DataType="BOOL" Radix="Decimal" Value="0"/>
@@ -27058,14 +27080,14 @@ Send Data]]>
 <DataValueMember Name="Startup_Flag" DataType="BOOL" Value="1"/>
 <StructureMember Name="Tmr_ProcessAlarm" DataType="TIMER">
 <DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="64"/>
-<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="20"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="30"/>
 <DataValueMember Name="EN" DataType="BOOL" Value="1"/>
 <DataValueMember Name="TT" DataType="BOOL" Value="1"/>
 <DataValueMember Name="DN" DataType="BOOL" Value="0"/>
 </StructureMember>
 <StructureMember Name="Tmr_Diag" DataType="TIMER">
 <DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="64"/>
-<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="20"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="30"/>
 <DataValueMember Name="EN" DataType="BOOL" Value="1"/>
 <DataValueMember Name="TT" DataType="BOOL" Value="1"/>
 <DataValueMember Name="DN" DataType="BOOL" Value="0"/>
@@ -27641,18 +27663,18 @@ Send Data]]>
 </Comment>
 </Comments>
 <Data Format="L5K">
-<![CDATA[[[2,[3,5.00000000e+001,5.00000000e+001,[-1609329890,50,50],[1326398,50,0]],[3,5.00000000e+001,5.00000000e+001
-		,[-1609329890,50,50],[922578,50,0]],[1326169,1000,0]],[2,[3,5.00000000e+001,5.00000000e+001,[-1609329890,50
-		,50],[1326418,50,0]],[3,5.00000000e+001,5.00000000e+001,[-1609329890,50,50],[922578,50,0]],[1326169,1000,0]],[25
-		,0,15233,0,[0,0,[1359059,3200,0],0]],[3,5.00000000e+001,5.00000000e+001,[-1609329890,50,50],[1327448,50,0]],74,9.70000000e+001
-		,[3,5.00000000e+001,5.00000000e+001,[-1609329890,50,50],[2039050,50,0]],[3,5.00000000e+001,5.00000000e+001
-		,[-1609329890,50,50],[1352148,50,0]],[3,5.00000000e+001,5.00000000e+001,[-1609329890,50,50],[1290598,50,0
-		]],[10],[[3,10,0,[305094,10,0]],[23,10,10,[-1609329890,10,10]],[3,1000,0,[238386,1000,0]],[23,1000,1000,[-1609329890,1000,1000
-		]],[23,100,100,[-1609329880,100,100]],[23,100,100,[-1609329880,100,100]],[0,750,0,[3640983,750,0]],[3,750,0,[1325619,750
-		,0]],[23,750,750,[-1609329880,750,750]],[3,750,0,[1325359,750,0]],[23,750,750,[-1609329880,750,750]],[1,0,0,[0,0,0]]],1338,1338
-		,[3,5.00000000e+001,5.00000000e+001,[-1609329880,50,50],[1337969,50,0]],[0,[0,'0001$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
-		],0,2.50000000e+001],25,1.#INF0000e+000,1.#INF0000e+000,[1339029,1000,0],[0,60,0],[0,60,0],[536870912,0,0],[-1072458968
-		,1000,100],[0,60,56],[0,60,52],[536870912,0,14],0,0,0,0,[0,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
+<![CDATA[[[2,[3,5.00000000e+001,5.00000000e+001,[-1610564679,50,50],[1326398,50,0]],[3,5.00000000e+001,5.00000000e+001
+		,[-1610564679,50,50],[922578,50,0]],[1326169,1000,0]],[2,[3,5.00000000e+001,5.00000000e+001,[-1610564679,50
+		,50],[1326418,50,0]],[3,5.00000000e+001,5.00000000e+001,[-1610564679,50,50],[922578,50,0]],[1326169,1000,0]],[25
+		,0,15233,0,[0,0,[1359059,3200,0],0]],[3,5.00000000e+001,5.00000000e+001,[-1610564679,50,50],[1327448,50,0]],74,9.70000000e+001
+		,[3,5.00000000e+001,5.00000000e+001,[-1610564679,50,50],[2039050,50,0]],[3,5.00000000e+001,5.00000000e+001
+		,[-1610564679,50,50],[1352148,50,0]],[3,5.00000000e+001,5.00000000e+001,[-1610564679,50,50],[1290598,50,0
+		]],[8],[[3,10,0,[305094,10,0]],[23,10,10,[-1610564679,10,10]],[3,1000,0,[3044107,1000,0]],[23,1000,1000,[-1610564679,1000,1000
+		]],[23,100,100,[-1610564659,100,100]],[23,100,100,[-1610564659,100,100]],[0,750,0,[3640983,750,0]],[3,750,0,[1325619,750
+		,0]],[23,750,750,[-1610564659,750,750]],[3,750,0,[1325359,750,0]],[23,750,750,[-1610564659,750,750]],[1,0,0,[0,0,0]]],1338,1338
+		,[3,5.00000000e+001,5.00000000e+001,[-1610564659,50,50],[1337969,50,0]],[0,[0,'0001$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
+		],0,2.50000000e+001],25,1.#INF0000e+000,1.#INF0000e+000,[1339029,1000,0],[0,60,0],[0,60,0],[536870912,0,0],[-1073693747
+		,1000,500],[0,60,12],[0,60,43],[536870912,0,26],0,0,0,0,[0,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00'
 		],70,0]]]>
 </Data>
 <Data Format="Decorated">
@@ -27804,7 +27826,7 @@ Send Data]]>
 </StructureMember>
 <StructureMember Name="Stacklight" DataType="Stacklight">
 <DataValueMember Name="Green" DataType="BOOL" Value="0"/>
-<DataValueMember Name="Yellow" DataType="BOOL" Value="1"/>
+<DataValueMember Name="Yellow" DataType="BOOL" Value="0"/>
 <DataValueMember Name="Red" DataType="BOOL" Value="0"/>
 <DataValueMember Name="Blue" DataType="BOOL" Value="1"/>
 <DataValueMember Name="White" DataType="BOOL" Value="0"/>
@@ -28021,14 +28043,14 @@ Send Data]]>
 </StructureMember>
 <StructureMember Name="DowntimeTM" DataType="TIMER">
 <DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="1000"/>
-<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="100"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="500"/>
 <DataValueMember Name="EN" DataType="BOOL" Value="1"/>
 <DataValueMember Name="TT" DataType="BOOL" Value="1"/>
 <DataValueMember Name="DN" DataType="BOOL" Value="0"/>
 </StructureMember>
 <StructureMember Name="DowntimeS" DataType="COUNTER">
 <DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="60"/>
-<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="56"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="12"/>
 <DataValueMember Name="CU" DataType="BOOL" Value="0"/>
 <DataValueMember Name="CD" DataType="BOOL" Value="0"/>
 <DataValueMember Name="DN" DataType="BOOL" Value="0"/>
@@ -28037,7 +28059,7 @@ Send Data]]>
 </StructureMember>
 <StructureMember Name="DowntimeM" DataType="COUNTER">
 <DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="60"/>
-<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="52"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="43"/>
 <DataValueMember Name="CU" DataType="BOOL" Value="0"/>
 <DataValueMember Name="CD" DataType="BOOL" Value="0"/>
 <DataValueMember Name="DN" DataType="BOOL" Value="0"/>
@@ -28046,7 +28068,7 @@ Send Data]]>
 </StructureMember>
 <StructureMember Name="DowntimeH" DataType="COUNTER">
 <DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="0"/>
-<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="14"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="26"/>
 <DataValueMember Name="CU" DataType="BOOL" Value="0"/>
 <DataValueMember Name="CD" DataType="BOOL" Value="0"/>
 <DataValueMember Name="DN" DataType="BOOL" Value="1"/>
@@ -28074,7 +28096,7 @@ Send Data]]>
 		,0,0,0,0,0,0,0,0],[0,15,0,0,112,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,-89],[0,0,0,0],0],[[0,0,0,0],[0,5,0,0,116,0,4,0,0,0
 		,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,60],[0,0,0,0],0],[[0,15,0,0,114,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 		,0,0,0,0,0,0,0,0,0,0,0,7,9],[0,0,0,0],0],[[0,15,0,0,114,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,9],[0,0,0,0],0]],[[[0,0,0,0,0,0,0,0
-		,0]],[[0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0]],[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]],[0,0],[0,0,[0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		,0]],[[0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0]],[[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]],[0,0],[0,0,[0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 		,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 		,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 		,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -28469,7 +28491,7 @@ Send Data]]>
 <StructureMember Name="M04_UR20_16DO_P" DataType="UDT_020_O">
 <StructureMember Name="Data" DataType="UDT_020_Data_O">
 <DataValueMember Name="Ch_00" DataType="BOOL" Radix="Decimal" Value="0"/>
-<DataValueMember Name="Ch_01" DataType="BOOL" Radix="Decimal" Value="0"/>
+<DataValueMember Name="Ch_01" DataType="BOOL" Radix="Decimal" Value="1"/>
 <DataValueMember Name="Ch_02" DataType="BOOL" Radix="Decimal" Value="0"/>
 <DataValueMember Name="Ch_03" DataType="BOOL" Radix="Decimal" Value="1"/>
 <DataValueMember Name="Ch_04" DataType="BOOL" Radix="Decimal" Value="0"/>
@@ -31378,12 +31400,12 @@ Send Data]]>
 </Tag>
 <Tag Name="Reject_CTR" TagType="Base" DataType="COUNTER" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[0,10000,0]]]>
+<![CDATA[[0,10000,1]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="COUNTER">
 <DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="10000"/>
-<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="1"/>
 <DataValueMember Name="CU" DataType="BOOL" Value="0"/>
 <DataValueMember Name="CD" DataType="BOOL" Value="0"/>
 <DataValueMember Name="DN" DataType="BOOL" Value="0"/>
@@ -31533,12 +31555,12 @@ Send Data]]>
 </Tag>
 <Tag Name="Temp_Cycle_Timer" TagType="Base" DataType="TIMER" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[2981594,999999,2500]]]>
+<![CDATA[[0,999999,0]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="TIMER">
 <DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="999999"/>
-<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="2500"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="0"/>
 <DataValueMember Name="EN" DataType="BOOL" Value="0"/>
 <DataValueMember Name="TT" DataType="BOOL" Value="0"/>
 <DataValueMember Name="DN" DataType="BOOL" Value="0"/>
@@ -31563,10 +31585,10 @@ Send Data]]>
 </Tag>
 <Tag Name="Temp_Cycle_Time_Current" TagType="Base" DataType="REAL" Radix="Float" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[2.50000000e+000]]>
+<![CDATA[0.00000000e+000]]>
 </Data>
 <Data Format="Decorated">
-<DataValue DataType="REAL" Radix="Float" Value="2.5"/>
+<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
 </Data>
 </Tag>
 <Tag Name="Temp_Cycle_Time_DINT" TagType="Base" DataType="DINT" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
@@ -31579,10 +31601,10 @@ Send Data]]>
 </Tag>
 <Tag Name="Temp_Cycle_Time_Last" TagType="Base" DataType="REAL" Radix="Float" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[0.00000000e+000]]>
+<![CDATA[1.49300000e+001]]>
 </Data>
 <Data Format="Decorated">
-<DataValue DataType="REAL" Radix="Float" Value="0.0"/>
+<DataValue DataType="REAL" Radix="Float" Value="14.93"/>
 </Data>
 </Tag>
 <Tag Name="Test2_Rapid" TagType="Base" DataType="Servo_Move" Constant="false" ExternalAccess="Read/Write">
@@ -31608,8 +31630,8 @@ Send Data]]>
 </Tag>
 <Tag Name="Test2_Step" TagType="Base" DataType="Servo_Move" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[0,1.00000000e+002,4.50000000e+001,2.50000000e+005,1,4.30000000e+001,[2051122,250,0],[2051122,50
-		,0],[2051122,50,0],[2051122,0,0]]]]>
+<![CDATA[[0,1.00000000e+002,4.50000000e+001,2.50000000e+005,1,4.30000000e+001,[2874966,250,0],[2874966,50
+		,0],[2874966,50,0],[-1607737770,0,10]]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="Servo_Move">
@@ -31650,8 +31672,8 @@ Send Data]]>
 </Tag>
 <Tag Name="Test3_Step" TagType="Base" DataType="Servo_Move" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[0,2.00000000e+002,1.00000000e+002,-6.00000000e+005,1,9.80000000e+001,[2028532,250,0],[2028532
-		,50,0],[2028532,100,0],[2028532,0,0]]]]>
+<![CDATA[[0,2.00000000e+002,1.00000000e+002,-6.00000000e+005,1,9.80000000e+001,[1557522,250,0],[1557522
+		,50,0],[1557522,100,0],[-1609055214,0,10]]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="Servo_Move">
@@ -31692,8 +31714,8 @@ Send Data]]>
 </Tag>
 <Tag Name="Test4_Step" TagType="Base" DataType="Servo_Move" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[0,2.00000000e+002,1.00000000e+002,-6.00000000e+005,1,9.80000000e+001,[2036202,500,0],[2036202
-		,100,0],[2036202,100,0],[2036202,0,0]]]]>
+<![CDATA[[0,2.00000000e+002,1.00000000e+002,-6.00000000e+005,1,9.80000000e+001,[1535182,500,0],[1535182
+		,100,0],[1535182,100,0],[-1609077554,0,10]]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="Servo_Move">
@@ -31734,8 +31756,8 @@ Send Data]]>
 </Tag>
 <Tag Name="Test5_Step" TagType="Base" DataType="Servo_Move" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[0,1.00000000e+003,4.50000000e+001,-4.00000000e+006,1,4.30000000e+001,[2040252,250,0],[2040252
-		,50,0],[2040242,100,0],[2040252,100,0]]]]>
+<![CDATA[[0,1.00000000e+003,4.50000000e+001,-4.00000000e+006,1,4.30000000e+001,[2864436,250,0],[2864436
+		,50,0],[2864436,100,0],[-1607748300,100,100]]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="Servo_Move">
@@ -31818,17 +31840,17 @@ Send Data]]>
 </Tag>
 <Tag Name="Test_Data" TagType="Base" DataType="REAL" Dimensions="8" Radix="Float" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[0.00000000e+000,1.95312500e-004,8.06640625e+000,1.51601562e+001,5.97851562e+001,4.87890631e-001
+<![CDATA[[0.00000000e+000,0.00000000e+000,5.09765625e+000,1.48203125e+001,5.76601562e+001,9.70898449e-001
 		,0.00000000e+000,0.00000000e+000]]]>
 </Data>
 <Data Format="Decorated">
 <Array DataType="REAL" Dimensions="8" Radix="Float">
 <Element Index="[0]" Value="0.0"/>
-<Element Index="[1]" Value="1.95312500e-004"/>
-<Element Index="[2]" Value="8.066406"/>
-<Element Index="[3]" Value="15.160156"/>
-<Element Index="[4]" Value="59.785156"/>
-<Element Index="[5]" Value="0.48789063"/>
+<Element Index="[1]" Value="0.0"/>
+<Element Index="[2]" Value="5.0976562"/>
+<Element Index="[3]" Value="14.8203125"/>
+<Element Index="[4]" Value="57.660156"/>
+<Element Index="[5]" Value="0.97089845"/>
 <Element Index="[6]" Value="0.0"/>
 <Element Index="[7]" Value="0.0"/>
 </Array>
@@ -31886,7 +31908,7 @@ Send Data]]>
 </Tag>
 <Tag Name="Test_Delay_TMR" TagType="Base" DataType="TIMER" Dimensions="5" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[[2022972,1000,0],[2029562,1000,0],[2037742,1000,0],[2041801,1000,0],[2052671,1000,0]]]]>
+<![CDATA[[[1551682,1000,0],[1558562,1000,0],[2861826,1000,0],[2865966,1000,0],[2876506,1000,0]]]]>
 </Data>
 <Data Format="Decorated">
 <Array DataType="TIMER" Dimensions="5">
@@ -32017,10 +32039,10 @@ Send Data]]>
 </Tag>
 <Tag Name="Transmit_Data" TagType="Base" DataType="BOOL" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[0]]>
+<![CDATA[1]]>
 </Data>
 <Data Format="Decorated">
-<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+<DataValue DataType="BOOL" Radix="Decimal" Value="1"/>
 </Data>
 </Tag>
 <Tag Name="Trig_Path_ONS" TagType="Base" DataType="BOOL" Dimensions="32" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
@@ -32094,7 +32116,7 @@ Send Data]]>
 </Tag>
 <Tag Name="Vision_Result_OK_TMR" TagType="Base" DataType="TIMER" Dimensions="6" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[[0,0,0],[0,0,0],[2028542,500,0],[2036212,500,0],[0,0,0],[2051132,500,0]]]]>
+<![CDATA[[[0,0,0],[0,0,0],[1557532,500,0],[2860306,500,0],[0,0,0],[2874976,500,0]]]]>
 </Data>
 <Data Format="Decorated">
 <Array DataType="TIMER" Dimensions="6">
@@ -32157,7 +32179,7 @@ Send Data]]>
 </Tag>
 <Tag Name="Vision_TMR" TagType="Base" DataType="TIMER" Dimensions="3" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[[2028542,1000,0],[2036212,1000,0],[2051132,1000,0]]]]>
+<![CDATA[[[1557532,1000,0],[1535192,1000,0],[2874976,1000,0]]]]>
 </Data>
 <Data Format="Decorated">
 <Array DataType="TIMER" Dimensions="3">
@@ -32289,7 +32311,7 @@ Send Data]]>
 </Tag>
 <Tag Name="Auto_Seq" TagType="Base" DataType="SEQ" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[0,0,4,0,[-1070963856,180000,114179],180,[0,[1,0.00000000e+000,0.00000000e+000,[0,0,0],[0,0,0]],0,0],0]]]>
+<![CDATA[[0,0,0,0,[-1070963856,180000,114179],180,[0,[1,0.00000000e+000,0.00000000e+000,[0,0,0],[0,0,0]],0,0],0]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="SEQ">
@@ -32297,7 +32319,7 @@ Send Data]]>
 <DataValueMember Name="Next_Step" DataType="INT" Radix="Decimal" Value="0"/>
 <DataValueMember Name="Active" DataType="BOOL" Value="0"/>
 <DataValueMember Name="Run_Perm" DataType="BOOL" Value="0"/>
-<DataValueMember Name="Cycle_Start" DataType="BOOL" Value="1"/>
+<DataValueMember Name="Cycle_Start" DataType="BOOL" Value="0"/>
 <DataValueMember Name="Cycle_Stop" DataType="BOOL" Value="0"/>
 <DataValueMember Name="Cycle_Stopping" DataType="BOOL" Value="0"/>
 <DataValueMember Name="In_Cycle" DataType="BOOL" Value="0"/>
@@ -32373,7 +32395,7 @@ Send Data]]>
 </Tag>
 <Tag Name="Barcode_Result_DATA" TagType="Base" DataType="SINT" Dimensions="128" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[48,49,48,48,54,50,56,49,48,49,53,48,51,48,48,48,50,49,84,49,53,85,79,66,51,53,48,57,50,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+<![CDATA[[48,49,48,48,54,50,56,49,48,49,53,48,51,48,48,48,50,49,84,49,53,85,79,66,51,53,49,56,55,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 		,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]]>
 </Data>
 <Data Format="Decorated">
@@ -32404,9 +32426,9 @@ Send Data]]>
 <Element Index="[23]" Value="66"/>
 <Element Index="[24]" Value="51"/>
 <Element Index="[25]" Value="53"/>
-<Element Index="[26]" Value="48"/>
-<Element Index="[27]" Value="57"/>
-<Element Index="[28]" Value="50"/>
+<Element Index="[26]" Value="49"/>
+<Element Index="[27]" Value="56"/>
+<Element Index="[28]" Value="55"/>
 <Element Index="[29]" Value="13"/>
 <Element Index="[30]" Value="0"/>
 <Element Index="[31]" Value="0"/>
@@ -32533,12 +32555,12 @@ Send Data]]>
 </Tag>
 <Tag Name="DonePallets" TagType="Base" DataType="COUNTER" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[0,0,-70484]]]>
+<![CDATA[[0,0,-70805]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="COUNTER">
 <DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="0"/>
-<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="-70484"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="-70805"/>
 <DataValueMember Name="CU" DataType="BOOL" Value="0"/>
 <DataValueMember Name="CD" DataType="BOOL" Value="0"/>
 <DataValueMember Name="DN" DataType="BOOL" Value="0"/>
@@ -32609,7 +32631,7 @@ Send Data]]>
 </Tag>
 <Tag Name="Flash_Timer_Off" TagType="Base" DataType="TIMER" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[1298813,500,0]]]>
+<![CDATA[[53589,500,0]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="TIMER">
@@ -32623,16 +32645,79 @@ Send Data]]>
 </Tag>
 <Tag Name="Flash_Timer_On" TagType="Base" DataType="TIMER" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[-1072442571,500,430]]]>
+<![CDATA[[-1073688015,500,210]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="TIMER">
 <DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="500"/>
-<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="430"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="210"/>
 <DataValueMember Name="EN" DataType="BOOL" Value="1"/>
 <DataValueMember Name="TT" DataType="BOOL" Value="1"/>
 <DataValueMember Name="DN" DataType="BOOL" Value="0"/>
 </Structure>
+</Data>
+</Tag>
+<Tag Name="Flow_DB_TM" TagType="Base" DataType="TIMER" Dimensions="6" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[[[0,0,0],[1554372,500,0],[1535182,500,0],[0,0,0],[0,0,0],[0,0,0]]]]>
+</Data>
+<Data Format="Decorated">
+<Array DataType="TIMER" Dimensions="6">
+<Element Index="[0]">
+<Structure DataType="TIMER">
+<DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="EN" DataType="BOOL" Value="0"/>
+<DataValueMember Name="TT" DataType="BOOL" Value="0"/>
+<DataValueMember Name="DN" DataType="BOOL" Value="0"/>
+</Structure>
+</Element>
+<Element Index="[1]">
+<Structure DataType="TIMER">
+<DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="500"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="EN" DataType="BOOL" Value="0"/>
+<DataValueMember Name="TT" DataType="BOOL" Value="0"/>
+<DataValueMember Name="DN" DataType="BOOL" Value="0"/>
+</Structure>
+</Element>
+<Element Index="[2]">
+<Structure DataType="TIMER">
+<DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="500"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="EN" DataType="BOOL" Value="0"/>
+<DataValueMember Name="TT" DataType="BOOL" Value="0"/>
+<DataValueMember Name="DN" DataType="BOOL" Value="0"/>
+</Structure>
+</Element>
+<Element Index="[3]">
+<Structure DataType="TIMER">
+<DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="EN" DataType="BOOL" Value="0"/>
+<DataValueMember Name="TT" DataType="BOOL" Value="0"/>
+<DataValueMember Name="DN" DataType="BOOL" Value="0"/>
+</Structure>
+</Element>
+<Element Index="[4]">
+<Structure DataType="TIMER">
+<DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="EN" DataType="BOOL" Value="0"/>
+<DataValueMember Name="TT" DataType="BOOL" Value="0"/>
+<DataValueMember Name="DN" DataType="BOOL" Value="0"/>
+</Structure>
+</Element>
+<Element Index="[5]">
+<Structure DataType="TIMER">
+<DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="EN" DataType="BOOL" Value="0"/>
+<DataValueMember Name="TT" DataType="BOOL" Value="0"/>
+<DataValueMember Name="DN" DataType="BOOL" Value="0"/>
+</Structure>
+</Element>
+</Array>
 </Data>
 </Tag>
 <Tag Name="Gripper_ONS" TagType="Base" DataType="BOOL" Radix="Decimal" Constant="false" ExternalAccess="Read/Write">
@@ -32669,7 +32754,7 @@ Send Data]]>
 </Tag>
 <Tag Name="InfeedPalletTM1" TagType="Base" DataType="TIMER" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[2842693,250,0]]]>
+<![CDATA[[1564952,250,0]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="TIMER">
@@ -32713,7 +32798,7 @@ Send Data]]>
 </Tag>
 <Tag Name="IV3_Prog_AOI" TagType="Base" DataType="IvSwichPrgoram" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[16,2,[2#1,2#1,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
+<![CDATA[[24,3,[2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0,2#0
 		,2#0,2#0,2#0,2#0,2#0,2#0]]]]>
 </Data>
 <Data Format="Decorated">
@@ -32721,8 +32806,8 @@ Send Data]]>
 <DataValueMember Name="EnableIn" DataType="BOOL" Value="0"/>
 <DataValueMember Name="EnableOut" DataType="BOOL" Value="0"/>
 <DataValueMember Name="SwitchProgramRequest" DataType="BOOL" Value="0"/>
-<DataValueMember Name="TargetProgramNo" DataType="INT" Radix="Decimal" Value="2"/>
-<DataValueMember Name="SwitchProgramDone" DataType="BOOL" Value="0"/>
+<DataValueMember Name="TargetProgramNo" DataType="INT" Radix="Decimal" Value="3"/>
+<DataValueMember Name="SwitchProgramDone" DataType="BOOL" Value="1"/>
 </Structure>
 </Data>
 </Tag>
@@ -32736,7 +32821,7 @@ Send Data]]>
 </Tag>
 <Tag Name="Lift_stop_timer" TagType="Base" DataType="TIMER" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[2842693,750,0]]]>
+<![CDATA[[1564952,750,0]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="TIMER">
@@ -32780,7 +32865,7 @@ Send Data]]>
 </Tag>
 <Tag Name="MODE" TagType="Base" DataType="MODE" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[2,[1,0.00000000e+000,0.00000000e+000,[0,0,0],[0,0,0]],1,0]]]>
+<![CDATA[[2,[1,0.00000000e+000,0.00000000e+000,[0,0,0],[0,0,0]],9,2]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="MODE">
@@ -32807,10 +32892,10 @@ Send Data]]>
 <DataValueMember Name="Manual_ONS" DataType="BOOL" Value="1"/>
 <DataValueMember Name="Faulted" DataType="BOOL" Value="0"/>
 <DataValueMember Name="Ready" DataType="BOOL" Value="0"/>
-<DataValueMember Name="Homed" DataType="BOOL" Value="0"/>
+<DataValueMember Name="Homed" DataType="BOOL" Value="1"/>
 <DataValueMember Name="Home" DataType="BOOL" Value="0"/>
 <DataValueMember Name="Homing" DataType="BOOL" Value="0"/>
-<DataValueMember Name="Selector" DataType="INT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="Selector" DataType="INT" Radix="Decimal" Value="2"/>
 </Structure>
 </Data>
 </Tag>
@@ -32962,6 +33047,20 @@ Send Data]]>
 </Data>
 <Data Format="Decorated">
 <DataValue DataType="BOOL" Radix="Decimal" Value="1"/>
+</Data>
+</Tag>
+<Tag Name="temp_Gripper_Delay" TagType="Base" DataType="TIMER" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[[1561212,1000,0]]]>
+</Data>
+<Data Format="Decorated">
+<Structure DataType="TIMER">
+<DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="1000"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="0"/>
+<DataValueMember Name="EN" DataType="BOOL" Value="0"/>
+<DataValueMember Name="TT" DataType="BOOL" Value="0"/>
+<DataValueMember Name="DN" DataType="BOOL" Value="0"/>
+</Structure>
 </Data>
 </Tag>
 <Tag Name="Test" TagType="Base" DataType="Connect" Constant="false" ExternalAccess="Read/Write">
@@ -33477,6 +33576,7 @@ Message Command for Parameter
 </Rung>
 </RLLContent>
 </Routine>
+<Routine Name="NEW_YEAR" Type="RLL"/>
 <Routine Name="R01_INPUTS" Type="RLL">
 <RLLContent>
 <Rung Number="0" Type="N">
@@ -33652,12 +33752,12 @@ Message Command for Parameter
 <![CDATA[Vertical Hold Down Clamp]]>
 </Comment>
 <Text>
-<![CDATA[[XIC(MODE.Auto) XIC(MCP.Testing.Hood.Ext) XIO(MCP.Testing.Hood.Ret) ,XIC(MODE.Manual) [XIC(MCP.HMI.Testing.Hood.Ext) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].0) ] XIO(MCP.HMI.Testing.Hood.Ret) XIO(MCP.Homing.Testing.Hood.Ret) ]OTE(MCP_VALVE_STACK:O.OutputArea[0].0);]]>
+<![CDATA[[XIC(MODE.Auto) XIC(MCP.Testing.Hood.Ext) XIO(MCP.Testing.Hood.Ret) ,XIC(MODE.Manual) [XIC(MCP.HMI.Testing.Hood.Ext) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].0) ] XIO(MCP.HMI.Testing.Hood.Ret) XIO(MODE.Homing) ]OTE(MCP_VALVE_STACK:O.OutputArea[0].0);]]>
 </Text>
 </Rung>
 <Rung Number="7" Type="N">
 <Text>
-<![CDATA[[XIC(MODE.Auto) XIC(MCP.Testing.Hood.Ret) XIO(MCP.Testing.Hood.Ext) ,[XIC(MODE.Manual) XIC(MCP.HMI.Testing.Hood.Ret) ,XIC(MCP.Homing.Testing.Hood.Ret) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].1) ] XIO(MCP.HMI.Testing.Hood.Ext) ]OTE(MCP_VALVE_STACK:O.OutputArea[0].1);]]>
+<![CDATA[[XIC(MODE.Auto) XIC(MCP.Testing.Hood.Ret) XIO(MCP.Testing.Hood.Ext) ,XIC(MODE.Manual) [XIC(MCP.HMI.Testing.Hood.Ret) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].1) ] XIO(MCP.HMI.Testing.Hood.Ext) XIO(MODE.Homing) ,XIC(MCP.Homing.Testing.Hood.Ret) ]OTE(MCP_VALVE_STACK:O.OutputArea[0].1);]]>
 </Text>
 </Rung>
 <Rung Number="8" Type="N">
@@ -33665,12 +33765,12 @@ Message Command for Parameter
 <![CDATA[Fastest Sled]]>
 </Comment>
 <Text>
-<![CDATA[[XIC(MODE.Auto) XIC(MCP.Testing.FastTest.Ext) XIO(MCP.Testing.FastTest.Ret) ,XIC(MODE.Manual) [XIC(MCP.HMI.Testing.FastTest.Ext) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].2) ] XIO(MCP.HMI.Testing.FastTest.Ret) XIO(MCP.Homing.Testing.FastTest.Ret) ]OTE(MCP_VALVE_STACK:O.OutputArea[0].2);]]>
+<![CDATA[[XIC(MODE.Auto) XIC(MCP.Testing.FastTest.Ext) XIO(MCP.Testing.FastTest.Ret) ,XIC(MODE.Manual) [XIC(MCP.HMI.Testing.FastTest.Ext) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].2) ] XIO(MCP.HMI.Testing.FastTest.Ret) XIO(MODE.Homing) ]OTE(MCP_VALVE_STACK:O.OutputArea[0].2);]]>
 </Text>
 </Rung>
 <Rung Number="9" Type="N">
 <Text>
-<![CDATA[[XIC(MODE.Auto) XIC(MCP.Testing.FastTest.Ret) XIO(MCP.Testing.FastTest.Ext) ,[XIC(MODE.Manual) XIC(MCP.HMI.Testing.FastTest.Ret) ,XIC(MCP.Homing.Testing.FastTest.Ret) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].3) ] XIO(MCP.HMI.Testing.FastTest.Ext) ]OTE(MCP_VALVE_STACK:O.OutputArea[0].3);]]>
+<![CDATA[[XIC(MODE.Auto) XIC(MCP.Testing.FastTest.Ret) XIO(MCP.Testing.FastTest.Ext) ,XIC(MODE.Manual) [XIC(MCP.HMI.Testing.FastTest.Ret) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].3) ] XIO(MCP.HMI.Testing.FastTest.Ext) XIO(MODE.Homing) ,XIC(MCP.Homing.Testing.FastTest.Ret) ]TON(Air_Pressure_Issue_Delay_TMR,?,?)XIC(Air_Pressure_Issue_Delay_TMR.DN)OTE(MCP_VALVE_STACK:O.OutputArea[0].3);]]>
 </Text>
 </Rung>
 <Rung Number="10" Type="N">
@@ -33678,12 +33778,12 @@ Message Command for Parameter
 <![CDATA[Conveyor - Lift and Locate]]>
 </Comment>
 <Text>
-<![CDATA[[XIC(MODE.Auto) XIC(MCP.Conv.Lift.Ext) XIO(MCP.Conv.Lift.Ret) ,XIC(MODE.Manual) [XIC(MCP.HMI.Conv.Lift.Ext) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].6) ] XIO(MCP.HMI.Conv.Lift.Ret) XIO(MCP.Homing.Conv.Lift.Ret) ]OTE(MCP_VALVE_STACK:O.OutputArea[0].6);]]>
+<![CDATA[[XIC(MODE.Auto) XIC(MCP.Conv.Lift.Ext) XIO(MCP.Conv.Lift.Ret) ,XIC(MODE.Manual) [XIC(MCP.HMI.Conv.Lift.Ext) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].6) ] XIO(MCP.HMI.Conv.Lift.Ret) XIO(MODE.Homing) ]OTE(MCP_VALVE_STACK:O.OutputArea[0].6);]]>
 </Text>
 </Rung>
 <Rung Number="11" Type="N">
 <Text>
-<![CDATA[[XIC(MODE.Auto) XIC(MCP.Conv.Lift.Ret) XIO(MCP.Conv.Lift.Ext) ,[XIC(MODE.Manual) XIC(MCP.HMI.Conv.Lift.Ret) ,XIC(MCP.Homing.Conv.Lift.Ret) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].7) ] XIO(MCP.HMI.Conv.Lift.Ext) ]OTE(MCP_VALVE_STACK:O.OutputArea[0].7);]]>
+<![CDATA[[XIC(MODE.Auto) XIC(MCP.Conv.Lift.Ret) XIO(MCP.Conv.Lift.Ext) ,XIC(MODE.Manual) [XIC(MCP.HMI.Conv.Lift.Ret) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].7) ] XIO(MCP.HMI.Conv.Lift.Ext) XIO(MODE.Homing) ,XIC(MCP.Homing.Conv.Lift.Ret) ]OTE(MCP_VALVE_STACK:O.OutputArea[0].7);]]>
 </Text>
 </Rung>
 <Rung Number="12" Type="N">
@@ -33691,12 +33791,12 @@ Message Command for Parameter
 <![CDATA[Conveyor - Reject Diverter]]>
 </Comment>
 <Text>
-<![CDATA[[XIC(MODE.Auto) XIC(MCP.Conv.Diverter.Ext) XIO(MCP.Conv.Diverter.Ret) ,XIC(MODE.Manual) [XIC(MCP.HMI.Conv.Diverter.Ext) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].4) ] XIO(MCP.HMI.Conv.Diverter.Ret) XIO(MCP.Homing.Conv.Diverter.Ret) ]OTE(MCP_VALVE_STACK:O.OutputArea[0].4);]]>
+<![CDATA[[XIC(MODE.Auto) XIC(MCP.Conv.Diverter.Ext) XIO(MCP.Conv.Diverter.Ret) ,XIC(MODE.Manual) [XIC(MCP.HMI.Conv.Diverter.Ext) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].4) ] XIO(MCP.HMI.Conv.Diverter.Ret) XIO(MODE.Homing) XIO(MCP.Homing.Conv.Diverter.Ret) ]OTE(MCP_VALVE_STACK:O.OutputArea[0].4);]]>
 </Text>
 </Rung>
 <Rung Number="13" Type="N">
 <Text>
-<![CDATA[[XIC(MODE.Auto) XIC(MCP.Conv.Diverter.Ret) XIO(MCP.Conv.Diverter.Ext) ,[XIC(MODE.Manual) XIC(MCP.HMI.Conv.Diverter.Ret) ,XIC(MCP.Homing.Conv.Diverter.Ret) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].5) ] XIO(MCP.HMI.Conv.Diverter.Ext) ]OTE(MCP_VALVE_STACK:O.OutputArea[0].5);]]>
+<![CDATA[[XIC(MODE.Auto) XIC(MCP.Conv.Diverter.Ret) XIO(MCP.Conv.Diverter.Ext) ,XIC(MODE.Manual) [XIC(MCP.HMI.Conv.Diverter.Ret) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].5) ] XIO(MCP.HMI.Conv.Diverter.Ext) XIO(MODE.Homing) ,XIC(MCP.Homing.Conv.Diverter.Ret) ]OTE(MCP_VALVE_STACK:O.OutputArea[0].5);]]>
 </Text>
 </Rung>
 <Rung Number="14" Type="N">
@@ -33704,12 +33804,12 @@ Message Command for Parameter
 <![CDATA[Knob Turner - Gripper]]>
 </Comment>
 <Text>
-<![CDATA[[XIC(MODE.Auto) XIC(MCP.Testing.Knob_Turner.Grip) XIO(MCP.Testing.Knob_Turner.Ungrip) ,XIC(MODE.Manual) [XIC(MCP.HMI.Testing.Knob_Turner.Grip) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].12) ] XIO(MCP.HMI.Testing.Knob_Turner.Ungrip) XIO(MCP.Homing.Testing.Knob_Turner.Ungrip) ]OTE(MCP_VALVE_STACK:O.OutputArea[0].12);]]>
+<![CDATA[[XIC(MODE.Auto) XIC(MCP.Testing.Knob_Turner.Grip) XIO(MCP.Testing.Knob_Turner.Ungrip) ,XIC(MODE.Manual) [XIC(MCP.HMI.Testing.Knob_Turner.Grip) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].12) ] XIO(MCP.HMI.Testing.Knob_Turner.Ungrip) XIO(MODE.Homing) ]OTE(MCP_VALVE_STACK:O.OutputArea[0].12);]]>
 </Text>
 </Rung>
 <Rung Number="15" Type="N">
 <Text>
-<![CDATA[[XIC(MODE.Auto) XIC(MCP.Testing.Knob_Turner.Ungrip) XIO(MCP.Testing.Knob_Turner.Grip) ,[XIC(MODE.Manual) XIC(MCP.HMI.Testing.Knob_Turner.Ungrip) ,XIC(MCP.Homing.Testing.Knob_Turner.Ungrip) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].13) ] XIO(MCP.HMI.Testing.Knob_Turner.Grip) ]OTE(MCP_VALVE_STACK:O.OutputArea[0].13);]]>
+<![CDATA[[XIC(MODE.Auto) XIC(MCP.Testing.Knob_Turner.Ungrip) XIO(MCP.Testing.Knob_Turner.Grip) ,XIC(MODE.Manual) [XIC(MCP.HMI.Testing.Knob_Turner.Ungrip) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].13) ] XIO(MCP.HMI.Testing.Knob_Turner.Grip) XIO(MODE.Homing) ,XIC(MCP.Homing.Testing.Knob_Turner.Ungrip) ]OTE(MCP_VALVE_STACK:O.OutputArea[0].13);]]>
 </Text>
 </Rung>
 <Rung Number="16" Type="N">
@@ -33717,12 +33817,12 @@ Message Command for Parameter
 <![CDATA[Knob Turner - Sled]]>
 </Comment>
 <Text>
-<![CDATA[[XIC(MODE.Auto) XIC(MCP.Testing.Knob_Turner.Ext) XIO(MCP.Testing.Knob_Turner.Ret) ,XIC(MODE.Manual) [XIC(MCP.HMI.Testing.Knob_Turner.Ext) ,XIC(MCP_VALVE_STACK:O.OutputArea[1].4) ] XIO(MCP.HMI.Testing.Knob_Turner.Ret) XIO(MCP.Homing.Testing.Knob_Turner.Ret) ]OTE(MCP_VALVE_STACK:O.OutputArea[1].4);]]>
+<![CDATA[[XIC(MODE.Auto) XIC(MCP.Testing.Knob_Turner.Ext) XIO(MCP.Testing.Knob_Turner.Ret) ,XIC(MODE.Manual) [XIC(MCP.HMI.Testing.Knob_Turner.Ext) ,XIC(MCP_VALVE_STACK:O.OutputArea[1].4) ] XIO(MCP.HMI.Testing.Knob_Turner.Ret) XIO(MODE.Homing) ]OTE(MCP_VALVE_STACK:O.OutputArea[1].4);]]>
 </Text>
 </Rung>
 <Rung Number="17" Type="N">
 <Text>
-<![CDATA[[XIC(MODE.Auto) XIC(MCP.Testing.Knob_Turner.Ret) XIO(MCP.Testing.Knob_Turner.Ext) ,[XIC(MODE.Manual) XIC(MCP.HMI.Testing.Knob_Turner.Ret) ,XIC(MCP.Homing.Testing.Knob_Turner.Ret) ,XIC(MCP_VALVE_STACK:O.OutputArea[1].5) ] XIO(MCP.HMI.Testing.Knob_Turner.Ext) ]OTE(MCP_VALVE_STACK:O.OutputArea[1].5);]]>
+<![CDATA[[XIC(MODE.Auto) XIC(MCP.Testing.Knob_Turner.Ret) XIO(MCP.Testing.Knob_Turner.Ext) XIO(MCP.Testing.FastTest.Retd.DEB_INPUT) ,XIC(MODE.Manual) [XIC(MCP.HMI.Testing.Knob_Turner.Ret) ,XIC(MCP_VALVE_STACK:O.OutputArea[1].5) ] XIO(MCP.HMI.Testing.Knob_Turner.Ext) XIO(MODE.Homing) ,XIC(MCP.Homing.Testing.Knob_Turner.Ret) ]OTE(MCP_VALVE_STACK:O.OutputArea[1].5);]]>
 </Text>
 </Rung>
 <Rung Number="18" Type="N">
@@ -33751,7 +33851,7 @@ Message Command for Parameter
 <![CDATA[Fastest Outlet Seal]]>
 </Comment>
 <Text>
-<![CDATA[[XIC(MODE.Auto) XIC(MCP.Testing.FastTest.Outlet_Seal) ,XIC(MODE.Manual) [XIC(MCP.HMI.Testing.FastTest.Outlet_Seal) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].14) ] [XIO(MCP.HMI.Testing.FastTest.Outlet_Unseal) ,XIO(MCP.Homing.Testing.FastTest.Outlet_Unseal) ] ]OTE(MCP_VALVE_STACK:O.OutputArea[0].14);]]>
+<![CDATA[[XIC(MODE.Auto) XIC(MCP.Testing.FastTest.Outlet_Seal) ,XIC(MODE.Manual) [XIC(MCP.HMI.Testing.FastTest.Outlet_Seal) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].14) ] XIO(MCP.HMI.Testing.FastTest.Outlet_Unseal) XIO(MODE.Homing) XIO(MCP.Homing.Testing.FastTest.Outlet_Unseal) ]OTE(MCP_VALVE_STACK:O.OutputArea[0].14);]]>
 </Text>
 </Rung>
 <Rung Number="22" Type="N">
@@ -33776,7 +33876,7 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 <![CDATA[Conveyor - Lift and Locate Pallet Stop]]>
 </Comment>
 <Text>
-<![CDATA[[XIC(MODE.Auto) XIC(MCP.Conv.Lift.Stop.Release) [XIO(MCP.Conv.Downstream_Full.DEB_INPUT) ,XIO(MCP.Conv.Downstream_Full.DEB_INPUT) XIC(MCP.Conv.Reject_Full.DEB_INPUT) ] ,XIC(MODE.Manual) [XIC(MCP.HMI.Conv.Lift.Stop.Release) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].8) ] XIO(MCP.HMI.Conv.Lift.Stop.Hold) ]OTE(MCP_VALVE_STACK:O.OutputArea[0].8);]]>
+<![CDATA[[XIC(MODE.Auto) XIC(MCP.Conv.Lift.Stop.Release) [XIO(Reject_Active) XIO(MCP.Conv.Downstream_Full.DEB_INPUT) ,XIC(Reject_Active) XIC(MCP.Conv.Reject_Full.DEB_INPUT) ] ,XIC(MODE.Manual) [XIC(MCP.HMI.Conv.Lift.Stop.Release) ,XIC(MCP_VALVE_STACK:O.OutputArea[0].8) ] XIO(MCP.HMI.Conv.Lift.Stop.Hold) ]OTE(MCP_VALVE_STACK:O.OutputArea[0].8);]]>
 </Text>
 </Rung>
 <Rung Number="25" Type="N">
@@ -33784,7 +33884,7 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 <![CDATA[Conveyor - Infeed Pallet Stop]]>
 </Comment>
 <Text>
-<![CDATA[[XIC(MODE.Auto) XIC(MCP.Conv.Stop[2].Release) [XIO(MCP.Conv.Downstream_Full.DEB_INPUT) ,XIO(MCP.Conv.Downstream_Full.DEB_INPUT) XIC(MCP.Conv.Reject_Full.DEB_INPUT) ] ,XIC(MODE.Manual) [XIC(MCP.HMI.Conv.Stop[2].Release) ,XIC(MCP_VALVE_STACK:O.OutputArea[1].2) ] XIO(MCP.HMI.Conv.Stop[2].Hold) ]OTE(MCP_VALVE_STACK:O.OutputArea[1].2);]]>
+<![CDATA[[[XIC(MODE.Auto) ,XIC(Auto_Seq.Cycle_Stopping) ] XIC(MCP.Conv.Stop[2].Release) [XIO(MCP.Conv.Downstream_Full.DEB_INPUT) ,XIO(MCP.Conv.Downstream_Full.DEB_INPUT) XIC(MCP.Conv.Reject_Full.DEB_INPUT) ] ,XIO(Auto_Seq.Cycle_Stopping) XIC(MODE.Manual) [XIC(MCP.HMI.Conv.Stop[2].Release) ,XIC(MCP_VALVE_STACK:O.OutputArea[1].2) ] XIO(MCP.HMI.Conv.Stop[2].Hold) XIO(Manual_Output_Reset) ]OTE(MCP_VALVE_STACK:O.OutputArea[1].2);]]>
 </Text>
 </Rung>
 <Rung Number="26" Type="N">
@@ -33792,7 +33892,7 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 <![CDATA[Conveyor - Infeed Pallet Stop]]>
 </Comment>
 <Text>
-<![CDATA[[XIC(MODE.Auto) XIO(MCP.Conv.Stop[2].Release) ,XIC(MODE.Manual) [XIC(MCP.HMI.Conv.Stop[2].Hold) ,XIC(MCP_VALVE_STACK:O.OutputArea[1].3) ] XIO(MCP.HMI.Conv.Stop[2].Release) ]OTE(MCP_VALVE_STACK:O.OutputArea[1].3);]]>
+<![CDATA[[[XIC(MODE.Auto) ,XIC(Auto_Seq.Cycle_Stopping) ] XIO(MCP.Conv.Stop[2].Release) ,XIO(Auto_Seq.Cycle_Stopping) XIC(MODE.Manual) [XIC(MCP.HMI.Conv.Stop[2].Hold) ,XIC(MCP_VALVE_STACK:O.OutputArea[1].3) ] XIO(MCP.HMI.Conv.Stop[2].Release) XIO(Manual_Output_Reset) ]OTE(MCP_VALVE_STACK:O.OutputArea[1].3);]]>
 </Text>
 </Rung>
 </RLLContent>
@@ -33804,7 +33904,7 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 <![CDATA[Step 450 - Restart Sequence]]>
 </Comment>
 <Text>
-<![CDATA[EQU(Auto_Seq.Next_Step,450)MOV(10,Auto_Seq.Current_Step);]]>
+<![CDATA[EQU(Auto_Seq.Next_Step,450)XIO(MCP.Conv.Downstream_Full.DEB_INPUT)MOV(10,Auto_Seq.Current_Step);]]>
 </Text>
 </Rung>
 <Rung Number="1" Type="N">
@@ -33836,7 +33936,7 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 <![CDATA[Step 441 - Extend Reject Diverter]]>
 </Comment>
 <Text>
-<![CDATA[EQU(Auto_Seq.Next_Step,441)MOV(442,Auto_Seq.Current_Step);]]>
+<![CDATA[EQU(Auto_Seq.Next_Step,441)XIC(MCP.Conv.Reject_Full.DEB_INPUT)MOV(442,Auto_Seq.Current_Step);]]>
 </Text>
 </Rung>
 <Rung Number="5" Type="N">
@@ -33876,7 +33976,7 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 <![CDATA[Step 405 - Retract Knob Gripper]]>
 </Comment>
 <Text>
-<![CDATA[EQU(Auto_Seq.Next_Step,405)XIO(MCP.Testing.FastTest.Retd.DEB_INPUT)MOV(410,Auto_Seq.Current_Step);]]>
+<![CDATA[EQU(Auto_Seq.Next_Step,405)XIO(MCP.Testing.FastTest.Retd.DEB_INPUT)[TON(temp_Gripper_Delay,?,?) ,XIC(temp_Gripper_Delay.DN) MOV(410,Auto_Seq.Current_Step) ];]]>
 </Text>
 </Rung>
 <Rung Number="10" Type="N">
@@ -34020,7 +34120,7 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 <![CDATA[Step 230 - Test 3 (15LMP Accuracy Test) - Start the Test (Reading From 5LMP Alicat Should be 15LMP)]]>
 </Comment>
 <Text>
-<![CDATA[EQU(Auto_Seq.Next_Step,230)XIC(Test4_Step.DN)XIC(Knob_Turner:I.Data[3].2)TON(Vision_TMR[1],?,?)XIC(Vision_TMR[1].DN)[XIC(MCP.Testing.Vision.Result_OK) [TON(Vision_Result_OK_TMR[3],?,?) ,XIC(Vision_Result_OK_TMR[3].DN) MOV(240,Auto_Seq.Current_Step) ] ,XIO(MCP.Testing.Vision.Result_OK) MOV(410,Auto_Seq.Current_Step) ];]]>
+<![CDATA[EQU(Auto_Seq.Next_Step,230)XIC(Test4_Step.DN)XIC(Knob_Turner:I.Data[3].2)TON(Vision_TMR[1],?,?)XIC(Vision_TMR[1].DN)[XIC(MCP.Testing.Vision.Result_OK) [TON(Vision_Result_OK_TMR[3],?,?) ,XIC(Vision_Result_OK_TMR[3].DN) MOV(240,Auto_Seq.Current_Step) ] ,XIO(MCP.Testing.Vision.Result_OK) MOV(380,Auto_Seq.Current_Step) ];]]>
 </Text>
 </Rung>
 <Rung Number="28" Type="N">
@@ -34060,7 +34160,7 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 <![CDATA[Step 180 - Test 2 (8LMP Accuracy Test) - Start the Test (Reading From 5LMP Alicat Should be 8LMP)]]>
 </Comment>
 <Text>
-<![CDATA[EQU(Auto_Seq.Next_Step,180)XIC(Test3_Step.DN)XIC(Knob_Turner:I.Data[3].2)TON(Vision_TMR[0],?,?)XIC(Vision_TMR[0].DN)[XIC(MCP.Testing.Vision.Result_OK) [TON(Vision_Result_OK_TMR[2],?,?) ,[XIC(Vision_Result_OK_TMR[2].DN) ,XIC(PH_Debug.29) ] MOV(190,Auto_Seq.Current_Step) ] ,XIO(MCP.Testing.Vision.Result_OK) MOV(410,Auto_Seq.Current_Step) ];]]>
+<![CDATA[EQU(Auto_Seq.Next_Step,180)XIC(Test3_Step.DN)XIC(Knob_Turner:I.Data[3].2)TON(Vision_TMR[0],?,?)XIC(Vision_TMR[0].DN)[XIC(MCP.Testing.Vision.Result_OK) [TON(Vision_Result_OK_TMR[2],?,?) ,XIC(Vision_Result_OK_TMR[2].DN) MOV(190,Auto_Seq.Current_Step) ] ,XIO(MCP.Testing.Vision.Result_OK) MOV(410,Auto_Seq.Current_Step) ];]]>
 </Text>
 </Rung>
 <Rung Number="33" Type="N">
@@ -34124,7 +34224,7 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 <![CDATA[Step 110 - Close Knob - Rotate CW Until Closed]]>
 </Comment>
 <Text>
-<![CDATA[EQU(Auto_Seq.Next_Step,110)XIC(MCP.Testing.Knob_Turner.Grip)XIO(CloseKnob.DN)MOV(111,Auto_Seq.Current_Step);]]>
+<![CDATA[EQU(Auto_Seq.Next_Step,110)XIC(MCP.Testing.Knob_Turner.Grip)MOV(111,Auto_Seq.Current_Step);]]>
 </Text>
 </Rung>
 <Rung Number="41" Type="N">
@@ -34156,7 +34256,7 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 <![CDATA[Step 70 - Extend Fastest Seal Sled & Knob Gripper]]>
 </Comment>
 <Text>
-<![CDATA[EQU(Auto_Seq.Next_Step,70)TON(Barcode_timeout,?,?)XIC(Barcode_timeout.DN)[XIO(MCP.Testing.Barcode.Read_failed) XIC(MCP.Testing.Barcode.Read_success) [XIC(Barcode_Latch) MOV(80,Auto_Seq.Current_Step) ,OTL(Barcode_Latch) ] ,XIC(MCP.Testing.Barcode.Read_failed) XIO(MCP.Testing.Barcode.Read_success) [XIC(Reject_Barcode) MOV(410,Auto_Seq.Current_Step) ,OTL(Reject_Barcode) ] ];]]>
+<![CDATA[EQU(Auto_Seq.Next_Step,70)TON(Barcode_Delay,?,?)XIC(Barcode_Delay.DN)[XIO(MCP.Testing.Barcode.Read_failed) XIC(MCP.Testing.Barcode.Read_success) [XIC(Barcode_Latch) MOV(80,Auto_Seq.Current_Step) ,OTL(Barcode_Latch) ] ,XIC(MCP.Testing.Barcode.Read_failed) XIO(MCP.Testing.Barcode.Read_success) [XIC(Reject_Barcode) MOV(410,Auto_Seq.Current_Step) ,OTL(Reject_Barcode) ] ];]]>
 </Text>
 </Rung>
 <Rung Number="45" Type="N">
@@ -34212,7 +34312,7 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 <![CDATA[Step 0 - Seq Start]]>
 </Comment>
 <Text>
-<![CDATA[XIC(Auto_Seq.Run_Perm)EQU(Auto_Seq.Next_Step,0)EQU(MCP.Conv.VFD.Current_speed,MCP.Conv.VFD.Speed)[XIC(Auto_Seq.Cycle_Start) MOV(10,Auto_Seq.Current_Step) ,XIC(MCP.Testing.Part_Present.DEB_INPUT) XIC(MCP.Conv.Lift.Stop.Present.DEB_INPUT) [XIC(MCP.Conv.Stop[2].Present.DEB_INPUT) ,XIO(MCP.Conv.Stop[2].Present.DEB_INPUT) ] MOV(40,Auto_Seq.Current_Step) ];]]>
+<![CDATA[XIC(Auto_Seq.Run_Perm)EQU(Auto_Seq.Next_Step,0)EQU(MCP.Conv.VFD.Current_speed,MCP.Conv.VFD.Speed)XIC(MODE.Cycle_Start_PB)[MOV(10,Auto_Seq.Current_Step) ,XIC(MCP.Testing.Part_Present.DEB_INPUT) XIC(MCP.Conv.Lift.Stop.Present.DEB_INPUT) [XIC(MCP.Conv.Stop[2].Present.DEB_INPUT) ,XIO(MCP.Conv.Stop[2].Present.DEB_INPUT) ] MOV(40,Auto_Seq.Current_Step) ];]]>
 </Text>
 </Rung>
 <Rung Number="52" Type="N">
@@ -34241,12 +34341,12 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 </Rung>
 <Rung Number="55" Type="N">
 <Text>
-<![CDATA[[XIC(Auto_Seq.Cycle_Stop) ,XIO(MODE.Auto) ONS(MODE.Manual_ONS) ]OTE(Auto_Seq.Cycle_Stopping);]]>
+<![CDATA[[XIC(Auto_Seq.Cycle_Stop) ,XIO(MODE.Auto) ONS(MODE.Manual_ONS) ,XIC(MODE.Cycle_Stop_PB) ]OTE(Auto_Seq.Cycle_Stopping);]]>
 </Text>
 </Rung>
 <Rung Number="56" Type="N">
 <Text>
-<![CDATA[[XIC(Auto_Seq.Cycle_Stopping) [,EQU(10,Auto_Seq.Current_Step) ,EQU(40,Auto_Seq.Current_Step) ] ,XIC(Auto_Seq.Single_Step) XIC(Auto_Seq.Cycle_Stopping) ,XIC(Auto_Seq.Time_Out.DN) ,XIC(MODE.Faulted) ][MOV(0,Auto_Seq.Current_Step) ,MOV(0,Auto_Seq.Next_Step) ,OTE(MCP.Conv.VFD.Stop) ];]]>
+<![CDATA[[XIC(Auto_Seq.Cycle_Stopping) [,EQU(10,Auto_Seq.Current_Step) ,EQU(40,Auto_Seq.Current_Step) ] ,XIC(Auto_Seq.Single_Step) XIC(Auto_Seq.Cycle_Stopping) ,XIC(Auto_Seq.Time_Out.DN) ,XIC(MODE.Faulted) ][MOV(0,Auto_Seq.Current_Step) ,MOV(0,Auto_Seq.Next_Step) ,OTE(MCP.Conv.VFD.Stop) ,OTE(MCP.Testing.Knob_Turner.Stop) ,OTU(MCP.Testing.Vision.Trigger) ];]]>
 </Text>
 </Rung>
 <Rung Number="57" Type="N">
@@ -34310,7 +34410,7 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 <![CDATA[Step 60 - Read Barcode]]>
 </Comment>
 <Text>
-<![CDATA[XIC(MODE.Auto)EQU(Auto_Seq.Current_Step,80)[MOV(SR:I.Data[42],MCP.Testing.Part[Part_count].Code.LEN) ,OTU(MCP.Testing.Barcode.Read_success) ,OTU(Barcode_Latch) ];]]>
+<![CDATA[XIC(MODE.Auto)EQU(Auto_Seq.Current_Step,80)[MOV(SR:I.Data[42],MCP.Testing.Part[Part_count].Code.LEN) ,OTU(Barcode_Latch) ];]]>
 </Text>
 </Rung>
 <Rung Number="65" Type="N">
@@ -34374,7 +34474,7 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 <![CDATA[Step 170 - Test 2 (8LMP Accuracy Test) - Approach Move - Rotate Knob Gripper Open (CCW) Until Ball is in Position at the 8LMP Mark]]>
 </Comment>
 <Text>
-<![CDATA[XIC(MODE.Auto)EQU(Auto_Seq.Current_Step,180)[Servo_Move(Test3_Step,Knob_Turner:I,Knob_Turner:O,200,100,-600000,1) ,XIC(MCP.Testing.Vision.Result_OK) [OTU(MCP.Testing.Vision.Trigger) ,OTE(Test3_Step.Stop) ] ,ONS(Test_ONS[13]) OTL(MCP.Testing.Vision.Trigger) ,OTU(IV3:O.Data[0].5) ];]]>
+<![CDATA[XIC(MODE.Auto)EQU(Auto_Seq.Current_Step,180)[Servo_Move(Test3_Step,Knob_Turner:I,Knob_Turner:O,200,100,-600000,1) ,[XIC(MCP.Testing.Vision.Result_OK) ,GEQ(MCP.Testing.Alicat[1].Flow,10) TON(Flow_DB_TM[1],?,?) XIC(Flow_DB_TM[1].DN) ] [OTU(MCP.Testing.Vision.Trigger) ,OTE(Test3_Step.Stop) ] ,ONS(Test_ONS[13]) OTL(MCP.Testing.Vision.Trigger) ,OTU(IV3:O.Data[0].5) ];]]>
 </Text>
 </Rung>
 <Rung Number="73" Type="N">
@@ -34390,7 +34490,7 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 <![CDATA[Step 220 - Test 3 (15LMP Accuracy Test) - Approach Move - Rotate Knob Gripper Open (CCW) Until Ball is in Position at the 15LMP Mark]]>
 </Comment>
 <Text>
-<![CDATA[XIC(MODE.Auto)EQU(Auto_Seq.Current_Step,230)[Servo_Move(Test4_Step,Knob_Turner:I,Knob_Turner:O,200,100,-600000,1) ,XIC(MCP.Testing.Vision.Result_OK) [OTU(MCP.Testing.Vision.Trigger) ,OTE(Test4_Step.Stop) ] ,ONS(Test_ONS[14]) OTL(MCP.Testing.Vision.Trigger) ,OTU(IV3:O.Data[0].5) ];]]>
+<![CDATA[XIC(MODE.Auto)EQU(Auto_Seq.Current_Step,230)[Servo_Move(Test4_Step,Knob_Turner:I,Knob_Turner:O,200,100,-600000,1) ,[XIC(MCP.Testing.Vision.Result_OK) ,GEQ(MCP.Testing.Alicat[1].Flow,18) TON(Flow_DB_TM[2],?,?) XIC(Flow_DB_TM[2].DN) ] [OTU(MCP.Testing.Vision.Trigger) ,OTE(Test4_Step.Stop) ] ,ONS(Test_ONS[14]) OTL(MCP.Testing.Vision.Trigger) ,OTU(IV3:O.Data[0].5) ];]]>
 </Text>
 </Rung>
 <Rung Number="75" Type="N">
@@ -34422,7 +34522,7 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 <![CDATA[Step 320 - Test 5 (2LMP Accuracy Test) - Approach Move - Rotate Knob Gripper Open (CCW) Until Ball is in Position at the 2LMP Mark]]>
 </Comment>
 <Text>
-<![CDATA[XIC(MODE.Auto)EQU(Auto_Seq.Current_Step,330)[Servo_Move(Test2_Step,Knob_Turner:I,Knob_Turner:O,100,45,250000,1) ,XIC(MCP.Testing.Vision.Result_OK) [OTU(MCP.Testing.Vision.Trigger) ,OTE(Test2_Step.Stop) ] ,ONS(Test_ONS[12]) OTL(MCP.Testing.Vision.Trigger) ,OTU(IV3:O.Data[0].5) ];]]>
+<![CDATA[XIC(MODE.Auto)EQU(Auto_Seq.Current_Step,330)[Servo_Move(Test2_Step,Knob_Turner:I,Knob_Turner:O,100,45,250000,1) ,[XIC(MCP.Testing.Vision.Result_OK) ,LEQ(MCP.Testing.Alicat[0].Flow,0.6) TON(Flow_DB_TM[1],?,?) XIC(Flow_DB_TM[1].DN) ] [OTU(MCP.Testing.Vision.Trigger) ,OTE(Test2_Step.Stop) ] ,ONS(Test_ONS[12]) OTL(MCP.Testing.Vision.Trigger) ,OTU(IV3:O.Data[0].5) ];]]>
 </Text>
 </Rung>
 <Rung Number="79" Type="N">
@@ -34438,7 +34538,7 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 <![CDATA[Step 400 - Retract Fastest Seal Sled & Knob Gripper]]>
 </Comment>
 <Text>
-<![CDATA[XIC(MODE.Auto)[LIM(0,Auto_Seq.Current_Step,70) ,LIM(405,Auto_Seq.Current_Step,440) ][TON(Fastest_Delay,?,?) ,OTE(MCP.Testing.FastTest.Ret) ,XIC(Fastest_Delay.DN) OTE(MCP.Testing.Knob_Turner.Ret) ];]]>
+<![CDATA[XIC(MODE.Auto)[LIM(0,Auto_Seq.Current_Step,70) ,LIM(405,Auto_Seq.Current_Step,440) ][OTE(MCP.Testing.FastTest.Ret) ,OTE(MCP.Testing.Knob_Turner.Ret) ];]]>
 </Text>
 </Rung>
 <Rung Number="81" Type="N">
@@ -34446,7 +34546,7 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 <![CDATA[Step 410 - Retract Hood Cylinder]]>
 </Comment>
 <Text>
-<![CDATA[XIC(MODE.Auto)EQU(Auto_Seq.Current_Step,420)OTE(MCP.Testing.Hood.Ret);]]>
+<![CDATA[XIC(MODE.Auto)LIM(420,Auto_Seq.Current_Step,0)OTE(MCP.Testing.Hood.Ret);]]>
 </Text>
 </Rung>
 <Rung Number="82" Type="N">
@@ -34454,7 +34554,7 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 <![CDATA[Step 420 - Retract Lift & Locate]]>
 </Comment>
 <Text>
-<![CDATA[XIC(MODE.Auto)EQU(Auto_Seq.Current_Step,430)OTE(MCP.Conv.Lift.Ret);]]>
+<![CDATA[XIC(MODE.Auto)LIM(430,Auto_Seq.Current_Step,0)OTE(MCP.Conv.Lift.Ret);]]>
 </Text>
 </Rung>
 <Rung Number="83" Type="N">
@@ -34513,7 +34613,7 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 <![CDATA[Option 2]]>
 </Comment>
 <Text>
-<![CDATA[[[XIC(MCP.Testing.Load_PB.DEB_INPUT) ,] XIC(MCP.Conv.Stop[0].Present.DEB_INPUT) ,XIC(MCP.Conv.Drop_TM[0].EN) ][XIO(MCP.Conv.Drop_TM[0].DN) TON(MCP.Conv.Drop_TM[0],?,?) ,XIC(MCP.Conv.Drop_TM[0].TT) [OTE(MCP.Conv.Stop[0].Release) ,CTD(DonePallets,?,?) ] ];]]>
+<![CDATA[[[XIC(MCP.Testing.Load_PB.DEB_INPUT) ONS(Load_PB_ONS) ,AFI() ] XIC(MCP.Conv.Stop[0].Present.DEB_INPUT) ,XIC(MCP.Conv.Drop_TM[0].EN) ][XIO(MCP.Conv.Drop_TM[0].DN) TON(MCP.Conv.Drop_TM[0],?,?) ,XIC(MCP.Conv.Drop_TM[0].TT) [OTE(MCP.Conv.Stop[0].Release) ,CTD(DonePallets,?,?) ] ];]]>
 </Text>
 </Rung>
 <Rung Number="1" Type="N">
@@ -35115,10 +35215,15 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 </Rung>
 <Rung Number="3" Type="N">
 <Text>
-<![CDATA[XIC(SR:I.Data[3].0)OTE(MCP.Testing.Barcode.Read_failed);]]>
+<![CDATA[[XIC(SR:I.Data[3].0) ,XIC(MCP.Testing.Barcode.Read) TON(Barcode_timeout,?,?) XIC(Barcode_timeout.DN) ,XIC(MCP.Testing.Barcode.Read_failed) NEQ(Auto_Seq.Current_Step,40) ]OTE(MCP.Testing.Barcode.Read_failed);]]>
 </Text>
 </Rung>
 <Rung Number="4" Type="N">
+<Text>
+<![CDATA[EQU(Auto_Seq.Current_Step,40)OTU(MCP.Testing.Barcode.Read_success);]]>
+</Text>
+</Rung>
+<Rung Number="5" Type="N">
 <Comment>
 <![CDATA[Request Start Reading]]>
 </Comment>
@@ -35126,17 +35231,17 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 <![CDATA[XIC(MCP.Testing.Barcode.Ready)[XIC(MCP.Testing.Barcode.Read) ,XIC(MODE.Manual) XIC(MCP.HMI.Testing.Barcode.Read) ]XIO(SR_Read_Request)XIO(SR:I.Data[2].0)OTL(SR_Read_Request);]]>
 </Text>
 </Rung>
-<Rung Number="5" Type="N">
+<Rung Number="6" Type="N">
 <Text>
 <![CDATA[XIO(MCP.Testing.Barcode.Read)XIO(MCP.HMI.Testing.Barcode.Read)XIC(SR_Read_Request)OTU(SR_Read_Request);]]>
 </Text>
 </Rung>
-<Rung Number="6" Type="N">
+<Rung Number="7" Type="N">
 <Text>
 <![CDATA[XIC(SR_Read_Request)OTE(SR:O.Data[1].0);]]>
 </Text>
 </Rung>
-<Rung Number="7" Type="N">
+<Rung Number="8" Type="N">
 <Comment>
 <![CDATA[Detect Read Complete & Access Result-Data]]>
 </Comment>
@@ -35144,12 +35249,12 @@ NO LONGER USED - WAS REMOVED MECHANICALLY]]>
 <![CDATA[XIC(MCP.Testing.Barcode.Read_complete)XIC(MCP.Testing.Barcode.Read_failed)[COP(SR:I.Data[44],Barcode_Result_DATA[0],SR:I.Data[42]) ,OTL(SR:O.Data[2].0) ,OTU(MCP.Testing.Barcode.Read_success) ];]]>
 </Text>
 </Rung>
-<Rung Number="8" Type="N">
+<Rung Number="9" Type="N">
 <Text>
 <![CDATA[XIC(MCP.Testing.Barcode.Read_complete)XIO(MCP.Testing.Barcode.Read_failed)[COP(SR:I.Data[44],Barcode_Result_DATA[0],SR:I.Data[42]) ,OTL(SR:O.Data[2].0) ,OTL(MCP.Testing.Barcode.Read_success) ];]]>
 </Text>
 </Rung>
-<Rung Number="9" Type="N">
+<Rung Number="10" Type="N">
 <Text>
 <![CDATA[XIC(SR:O.Data[2].0)XIO(SR:I.Data[2].0)OTU(SR:O.Data[2].0);]]>
 </Text>
@@ -35298,28 +35403,61 @@ Test 1 Status]]>
 <![CDATA[Power up in to manual]]>
 </Comment>
 <Text>
-<![CDATA[XIC(FIRST_SCAN)OTU(MODE.Auto);]]>
+<![CDATA[XIC(FIRST_SCAN)MOV(0,MODE.Selector);]]>
 </Text>
 </Rung>
-<Rung Number="1" Type="er">
+<Rung Number="1" Type="N">
+<Text>
+<![CDATA[XIO(MODE.Faulted)XIC(Safety_OK)XIC(MODE.Homed)EQU(MCP.Conv.VFD.Current_speed,MCP.Conv.VFD.Speed)OTE(MODE.Ready);]]>
+</Text>
+</Rung>
+<Rung Number="2" Type="N">
 <Comment>
 <![CDATA[Mode Selection]]>
 </Comment>
 <Text>
-<![CDATA[XIO(MODE.Faulted)[XIC(MODE.Auto_PB) ,,XIC(MODE.Auto) ]XIO(MODE.Manual_PB)OTE(MODE.Auto);]]>
-</Text>
-</Rung>
-<Rung Number="2" Type="rN">
-<Comment>
-<![CDATA[Mode Selection]]>
-</Comment>
-<Text>
-<![CDATA[XIO(MODE.Faulted)[XIC(MODE.Auto_PB) ,XIC(MODE.Auto) ]XIO(MODE.Manual_PB)OTE(MODE.Auto);]]>
+<![CDATA[XIO(MODE.Auto)XIO(MODE.Manual)EQU(MODE.Selector,0)OTE(MODE.Off);]]>
 </Text>
 </Rung>
 <Rung Number="3" Type="N">
 <Text>
-<![CDATA[XIO(MODE.Faulted)XIO(MODE.Auto)OTE(MODE.Manual);]]>
+<![CDATA[XIO(MODE.Faulted)XIO(MODE.Manual)EQU(MODE.Selector,1)OTE(MODE.Auto);]]>
+</Text>
+</Rung>
+<Rung Number="4" Type="N">
+<Text>
+<![CDATA[XIO(MODE.Faulted)XIO(MODE.Auto)EQU(MODE.Selector,2)OTE(MODE.Manual);]]>
+</Text>
+</Rung>
+<Rung Number="5" Type="N">
+<Comment>
+<![CDATA[Stack light controlls]]>
+</Comment>
+<Text>
+<![CDATA[XIO(Flash_Timer_Off.TT)TON(Flash_Timer_On,?,?);]]>
+</Text>
+</Rung>
+<Rung Number="6" Type="N">
+<Text>
+<![CDATA[[XIC(Flash_Timer_On.DN) ,XIC(Flash_Timer_Off.TT) ]TON(Flash_Timer_Off,?,?);]]>
+</Text>
+</Rung>
+<Rung Number="7" Type="N">
+<Text>
+<![CDATA[XIC(MODE.Auto)[XIC(Flash_Timer_On.TT) ,NEQ(Auto_Seq.Current_Step,0) ]OTE(MCP.Testing.Stacklight.Green);]]>
+</Text>
+</Rung>
+<Rung Number="8" Type="N">
+<Comment>
+<![CDATA[herp derp slerp]]>
+</Comment>
+<Text>
+<![CDATA[AFI()NOP();]]>
+</Text>
+</Rung>
+<Rung Number="9" Type="N">
+<Text>
+<![CDATA[XIC(MODE.Faulted)XIC(Flash_Timer_On.TT)OTE(MCP.Testing.Stacklight.Yellow);]]>
 </Text>
 </Rung>
 </RLLContent>
@@ -35352,10 +35490,15 @@ Test 1 Status]]>
 <![CDATA[Command to Home Machine]]>
 </Comment>
 <Text>
-<![CDATA[[XIC(MODE.Manual) XIO(MODE.Auto) XIC(MODE.Home) ,XIC(MODE.Homing) ]XIO(MODE.Homed)[OTE(MCP.Homing.Testing.Hood.Ret) ,XIO(MCP.Testing.Hood.Retd.DEB_INPUT) OTE(MCP.Homing.Testing.Knob_Turner.Ungrip) ,XIC(MCP.Homing.Testing.Knob_Turner.Ungrip) OTE(MCP.Homing.Testing.FastTest.Outlet_Unseal) ,XIC(MCP.Homing.Testing.FastTest.Outlet_Unseal) OTE(MCP.Homing.Testing.FastTest.Ret) ,XIO(MCP.Testing.FastTest.Retd.DEB_INPUT) OTE(MCP.Homing.Testing.Knob_Turner.Ret) ,XIO(MCP.Testing.FastTest.Retd.DEB_INPUT) XIO(MCP.Testing.Knob_Turner.Retd.DEB_INPUT) OTE(MCP.Homing.Conv.Lift.Ret) ,XIC(MCP.Homing.Conv.Diverter.Ret) OTE(MCP.Homing.Testing.Knob_Turner.Home) ,XIC(MCP.Conv.Lift.Retd.DEB_INPUT) OTE(MCP.Homing.Conv.Diverter.Ret) ,OTE(MODE.Homing) ];]]>
+<![CDATA[[XIC(MODE.Manual) XIO(MODE.Auto) XIC(MODE.Home) ,XIC(MODE.Homing) ]XIO(MODE.Homed)[OTE(MCP.Homing.Testing.Hood.Ret) ,XIO(MCP.Testing.Hood.Retd.DEB_INPUT) OTE(MCP.Homing.Testing.Knob_Turner.Ungrip) ,XIC(MCP.Homing.Testing.Knob_Turner.Ungrip) OTE(MCP.Homing.Testing.FastTest.Outlet_Unseal) ,XIC(MCP.Homing.Testing.FastTest.Outlet_Unseal) OTE(MCP.Homing.Testing.FastTest.Ret) ,XIO(MCP.Testing.FastTest.Retd.DEB_INPUT) OTE(MCP.Homing.Testing.Knob_Turner.Ret) ,XIO(MCP.Testing.FastTest.Retd.DEB_INPUT) XIO(MCP.Testing.Knob_Turner.Retd.DEB_INPUT) OTE(MCP.Homing.Conv.Lift.Ret) ,XIC(MCP.Homing.Conv.Diverter.Ret) OTE(MCP.Homing.Testing.Knob_Turner.Home) ,OTE(MODE.Homing) ];]]>
 </Text>
 </Rung>
 <Rung Number="1" Type="N">
+<Text>
+<![CDATA[XIC(MODE.Manual)XIO(MODE.Auto)XIC(MODE.Home)OTE(MCP.Homing.Conv.Diverter.Ret);]]>
+</Text>
+</Rung>
+<Rung Number="2" Type="N">
 <Comment>
 <![CDATA[Status the Machine is Homed]]>
 </Comment>
@@ -35483,7 +35626,21 @@ Test 1 Status]]>
 </Tag>
 <Tag Name="Flash_Timer_Off" TagType="Base" DataType="TIMER" Constant="false" ExternalAccess="Read/Write">
 <Data Format="L5K">
-<![CDATA[[1284736,500,0]]]>
+<![CDATA[[-1073687837,500,250]]]>
+</Data>
+<Data Format="Decorated">
+<Structure DataType="TIMER">
+<DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="500"/>
+<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="250"/>
+<DataValueMember Name="EN" DataType="BOOL" Value="1"/>
+<DataValueMember Name="TT" DataType="BOOL" Value="1"/>
+<DataValueMember Name="DN" DataType="BOOL" Value="0"/>
+</Structure>
+</Data>
+</Tag>
+<Tag Name="Flash_Timer_On" TagType="Base" DataType="TIMER" Constant="false" ExternalAccess="Read/Write">
+<Data Format="L5K">
+<![CDATA[[53737,500,0]]]>
 </Data>
 <Data Format="Decorated">
 <Structure DataType="TIMER">
@@ -35491,20 +35648,6 @@ Test 1 Status]]>
 <DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="0"/>
 <DataValueMember Name="EN" DataType="BOOL" Value="0"/>
 <DataValueMember Name="TT" DataType="BOOL" Value="0"/>
-<DataValueMember Name="DN" DataType="BOOL" Value="0"/>
-</Structure>
-</Data>
-</Tag>
-<Tag Name="Flash_Timer_On" TagType="Base" DataType="TIMER" Constant="false" ExternalAccess="Read/Write">
-<Data Format="L5K">
-<![CDATA[[-1072456908,500,170]]]>
-</Data>
-<Data Format="Decorated">
-<Structure DataType="TIMER">
-<DataValueMember Name="PRE" DataType="DINT" Radix="Decimal" Value="500"/>
-<DataValueMember Name="ACC" DataType="DINT" Radix="Decimal" Value="170"/>
-<DataValueMember Name="EN" DataType="BOOL" Value="1"/>
-<DataValueMember Name="TT" DataType="BOOL" Value="1"/>
 <DataValueMember Name="DN" DataType="BOOL" Value="0"/>
 </Structure>
 </Data>
@@ -35920,34 +36063,6 @@ Test 1 Status]]>
 <![CDATA[XIC(MODE.Auto)EQU(Auto_Seq.Current_Step,30)[XIO(RCP1.Needle_Bypass) TON(RCP1.Inlet_Driver.Drive_TM,?,?) ,TON(RCP1.Needle_Driver.Drive_TM,?,?) ,XIO(RCP1.Inlet_Driver.Drive_TM.DN) XIO(RCP1.Needle_Bypass) OTE(RCP1.Inlet_Driver.Ext) ,XIO(RCP1.Needle_Driver.Drive_TM.DN) OTE(RCP1.Needle_Driver.Ext) ];]]>
 </Text>
 </Rung>
-<Rung Number="17" Type="N">
-<Comment>
-<![CDATA[Stack light controlls]]>
-</Comment>
-<Text>
-<![CDATA[XIO(Flash_Timer_Off.TT)TON(Flash_Timer_On,?,?);]]>
-</Text>
-</Rung>
-<Rung Number="18" Type="N">
-<Text>
-<![CDATA[[XIC(Flash_Timer_On.DN) ,XIC(Flash_Timer_Off.TT) ]TON(Flash_Timer_Off,?,?);]]>
-</Text>
-</Rung>
-<Rung Number="19" Type="N">
-<Text>
-<![CDATA[[XIC(Auto_Seq.Active) XIC(Flash_Timer_On.TT) ,XIC(Auto_Seq.Active) [LIM(0,Auto_Seq.Current_Step,20) ,EQU(Auto_Seq.Current_Step,50) ] ]OTE(RCP1.Stacklight.Green);]]>
-</Text>
-</Rung>
-<Rung Number="20" Type="N">
-<Text>
-<![CDATA[XIC(MODE.Faulted)XIC(Flash_Timer_On.TT)OTE(RCP1.Stacklight.Yellow);]]>
-</Text>
-</Rung>
-<Rung Number="21" Type="N">
-<Text>
-<![CDATA[[XIC(MODE.Faulted) XIC(Flash_Timer_On.TT) ,GEQ(RCP1.Part_Count,RCP1.Batch_Count) ]OTE(RCP1.Stacklight.Blue);]]>
-</Text>
-</Rung>
 </RLLContent>
 </Routine>
 <Routine Name="R04_FAULTS" Type="RLL">
@@ -36273,6 +36388,34 @@ Test 1 Status]]>
 <Rung Number="3" Type="N">
 <Text>
 <![CDATA[XIO(Auto_Seq.In_Cycle)XIO(MODE.Auto)OTE(MODE.Off);]]>
+</Text>
+</Rung>
+<Rung Number="4" Type="N">
+<Comment>
+<![CDATA[Stack light controlls]]>
+</Comment>
+<Text>
+<![CDATA[XIO(Flash_Timer_Off.TT)TON(Flash_Timer_On,?,?);]]>
+</Text>
+</Rung>
+<Rung Number="5" Type="N">
+<Text>
+<![CDATA[[XIC(Flash_Timer_On.DN) ,XIC(Flash_Timer_Off.TT) ]TON(Flash_Timer_Off,?,?);]]>
+</Text>
+</Rung>
+<Rung Number="6" Type="N">
+<Text>
+<![CDATA[[XIC(Auto_Seq.Active) XIC(Flash_Timer_On.TT) ,XIC(Auto_Seq.Active) [LIM(0,Auto_Seq.Current_Step,20) ,EQU(Auto_Seq.Current_Step,50) ] ]OTE(RCP1.Stacklight.Green);]]>
+</Text>
+</Rung>
+<Rung Number="7" Type="N">
+<Text>
+<![CDATA[XIC(MODE.Faulted)XIC(Flash_Timer_On.TT)OTE(RCP1.Stacklight.Yellow);]]>
+</Text>
+</Rung>
+<Rung Number="8" Type="N">
+<Text>
+<![CDATA[[XIC(MODE.Faulted) XIC(Flash_Timer_On.TT) ,GEQ(RCP1.Part_Count,RCP1.Batch_Count) ]OTE(RCP1.Stacklight.Blue);]]>
 </Text>
 </Rung>
 </RLLContent>
